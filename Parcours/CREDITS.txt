@@ -1,0 +1,15 @@
+Parcours - licence GNU GPL v3 (voir LICENSE)
+
+Données incluses dans Donnees.lua, issues de sources tierces :
+- QuestieDB (https://github.com/Questie/QuestieDB) : maîtres de cuisine, quêtes, vendeurs de recettes,
+  niveaux orange, butin. Données WoW Classic Era reprojetées sur Forever, à confirmer en jeu. Licence GPL v3 (à confirmer sur GitHub).
+- AtlasLoot Classic (https://github.com/Hoizame/AtlasLootClassic) : recettes, composants, paliers de couleur. Licence GPL v2.
+- Plans de progression des autres métiers : guides wow-professions.com (Forever, et Classic Era pour l'herboristerie,
+  le minage et le dépeçage, ainsi que la couture et le travail du cuir de 225 à 300), Wowhead Classic.
+- Autres références (voir l'onglet Sources_données du classeur) : SeeMeta, Warcraft Wiki, Warcraft Tavern, Overgear, Icy Veins.
+- Relevés en jeu (bêta WoW Forever) : addon CuisineMarchands.
+
+Auteur : Sébastien.
+
+Module Marchands (ex-addon CuisineMarchands) : relevé des marchands de composants et de recettes de cuisine,
+favoris affichés sur la carte, la minimap et au-dessus du PNJ. Mêmes licence et auteur.

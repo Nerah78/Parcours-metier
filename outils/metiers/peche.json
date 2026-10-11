@@ -1,0 +1,283 @@
+{
+ "id": "peche",
+ "nom": "Pêche",
+ "nomEn": "Fishing",
+ "source": "https://www.wow-professions.com/forever/fishing-leveling-guide",
+ "edition": "Forever",
+ "consulte": "2026-10-11",
+ "limites": [
+  "Guide Forever indiqué comme en cours, basé sur clients bêta; niveaux requis susceptibles de changer.",
+  "Les plages 75-150 et 225-300 sont larges (zones listées sans ordre de rendement).",
+  "Maîtres Skyborne (Zephras Isle) non repris; coordonnées null.",
+  "Les marchands de cannes/appâts ne sont pas repris dans maitres."
+ ],
+ "maitres": [
+  {
+   "nom": "Lumak",
+   "zone": "Orgrimmar",
+   "faction": "Horde",
+   "x": null,
+   "y": null,
+   "source": "https://www.wow-professions.com/forever/fishing-leveling-guide"
+  },
+  {
+   "nom": "Armand Cromwell",
+   "zone": "Undercity",
+   "faction": "Horde",
+   "x": null,
+   "y": null,
+   "source": "https://www.wow-professions.com/forever/fishing-leveling-guide"
+  },
+  {
+   "nom": "Kah Mistrunner",
+   "zone": "Thunder Bluff",
+   "faction": "Horde",
+   "x": null,
+   "y": null,
+   "source": "https://www.wow-professions.com/forever/fishing-leveling-guide"
+  },
+  {
+   "nom": "Arnold Leland",
+   "zone": "Stormwind City",
+   "faction": "Alliance",
+   "x": null,
+   "y": null,
+   "source": "https://www.wow-professions.com/forever/fishing-leveling-guide"
+  },
+  {
+   "nom": "Grimnur Stonebrand",
+   "zone": "Ironforge",
+   "faction": "Alliance",
+   "x": null,
+   "y": null,
+   "source": "https://www.wow-professions.com/forever/fishing-leveling-guide"
+  },
+  {
+   "nom": "Astaia",
+   "zone": "Darnassus",
+   "faction": "Alliance",
+   "x": null,
+   "y": null,
+   "source": "https://www.wow-professions.com/forever/fishing-leveling-guide"
+  },
+  {
+   "nom": "Lau'Tiki",
+   "zone": "Sen'jin Village, Durotar",
+   "faction": "Horde",
+   "x": null,
+   "y": null,
+   "source": "https://www.wow-professions.com/forever/fishing-leveling-guide"
+  },
+  {
+   "nom": "Uthan Stillwater",
+   "zone": "Stonebull Lake, Mulgore",
+   "faction": "Horde",
+   "x": null,
+   "y": null,
+   "source": "https://www.wow-professions.com/forever/fishing-leveling-guide"
+  },
+  {
+   "nom": "Clyde Kellen",
+   "zone": "Brightwater Lake, Tirisfal Glades",
+   "faction": "Horde",
+   "x": null,
+   "y": null,
+   "source": "https://www.wow-professions.com/forever/fishing-leveling-guide"
+  },
+  {
+   "nom": "Lee Brown",
+   "zone": "Crystal Lake, Elwynn Forest",
+   "faction": "Alliance",
+   "x": null,
+   "y": null,
+   "source": "https://www.wow-professions.com/forever/fishing-leveling-guide"
+  },
+  {
+   "nom": "Paxton Ganter",
+   "zone": "Iceflow Lake, Dun Morogh",
+   "faction": "Alliance",
+   "x": null,
+   "y": null,
+   "source": "https://www.wow-professions.com/forever/fishing-leveling-guide"
+  },
+  {
+   "nom": "Androl Oakhand",
+   "zone": "Rut'theran Village, Teldrassil",
+   "faction": "Alliance",
+   "x": null,
+   "y": null,
+   "source": "https://www.wow-professions.com/forever/fishing-leveling-guide"
+  }
+ ],
+ "etapes": [
+  {
+   "n": 1,
+   "debut": 1,
+   "fin": 75,
+   "recetteEn": null,
+   "recetteSortId": null,
+   "recetteObjetId": null,
+   "crafts": null,
+   "obtention": "Aucune",
+   "zones": [
+    "Dun Morogh",
+    "Durotar",
+    "Elwynn Forest",
+    "Mulgore",
+    "Teldrassil",
+    "Tirisfal Glades",
+    "Zephras Isle"
+   ],
+   "ingredients": [
+    {
+     "nomEn": "Fishing Pole",
+     "id": 6256,
+     "parCraft": null,
+     "total": null
+    },
+    {
+     "nomEn": "Shiny Bauble",
+     "id": 6529,
+     "parCraft": null,
+     "total": null
+    }
+   ],
+   "notes": "Pêcher avec Shiny Baubles dans une zone de départ (sort Fishing 7731 à glisser sur la barre via la fenêtre des métiers). Apprentice sans niveau requis."
+  },
+  {
+   "n": 2,
+   "debut": 75,
+   "fin": 150,
+   "recetteEn": null,
+   "recetteSortId": null,
+   "recetteObjetId": null,
+   "crafts": null,
+   "obtention": "Aucune",
+   "zones": [
+    "Darnassus",
+    "Stormwind City",
+    "Orgrimmar",
+    "Undercity",
+    "Thunder Bluff",
+    "The Barrens",
+    "Darkshore",
+    "Ironforge",
+    "Loch Modan",
+    "Silverpine Forest",
+    "Westfall"
+   ],
+   "ingredients": [
+    {
+     "nomEn": "Fishing Pole",
+     "id": 6256,
+     "parCraft": null,
+     "total": null
+    },
+    {
+     "nomEn": "Shiny Bauble",
+     "id": 6529,
+     "parCraft": null,
+     "total": null
+    },
+    {
+     "nomEn": "Nightcrawlers",
+     "id": 6530,
+     "parCraft": null,
+     "total": null
+    }
+   ],
+   "notes": "Journeyman chez le maître (Fishing 50 et niveau 10). Nightcrawlers (requiert Fishing 50) si les poissons s'échappent."
+  },
+  {
+   "n": 3,
+   "debut": 150,
+   "fin": 225,
+   "recetteEn": null,
+   "recetteSortId": null,
+   "recetteObjetId": null,
+   "crafts": null,
+   "obtention": "Marchand: Old Man Heming, Booty Bay, Stranglethorn Vale",
+   "zones": [
+    "Dustwallow Marsh",
+    "Alterac Mountains",
+    "Arathi Highlands",
+    "Desolace",
+    "Stranglethorn Vale",
+    "Swamp of Sorrows",
+    "Thousand Needles"
+   ],
+   "ingredients": [
+    {
+     "nomEn": "Fishing Pole",
+     "id": 6256,
+     "parCraft": null,
+     "total": null
+    },
+    {
+     "nomEn": "Bright Baubles",
+     "id": 6532,
+     "parCraft": null,
+     "total": null
+    }
+   ],
+   "notes": "Expert Fishing via le livre The Bass and You (item 16083, niveau 20 et Fishing 125), vendu par Old Man Heming à Booty Bay (Stranglethorn Vale) ou à l'HV. Acheter des Bright Baubles chez lui. Dustwallow Marsh recommandé car la quête Artisan y commence."
+  },
+  {
+   "n": 4,
+   "debut": 225,
+   "fin": 300,
+   "recetteEn": null,
+   "recetteSortId": null,
+   "recetteObjetId": null,
+   "crafts": null,
+   "obtention": "Quête: Nat Pagle, Angler Extreme",
+   "zones": [
+    "Felwood",
+    "Feralas",
+    "The Hinterlands",
+    "Tanaris",
+    "Un'Goro Crater",
+    "Western Plaguelands"
+   ],
+   "ingredients": [
+    {
+     "nomEn": "Fishing Pole",
+     "id": 6256,
+     "parCraft": null,
+     "total": null
+    },
+    {
+     "nomEn": "Bright Baubles",
+     "id": 6532,
+     "parCraft": null,
+     "total": null
+    },
+    {
+     "nomEn": "Feralas Ahi",
+     "id": 16967,
+     "parCraft": null,
+     "total": null
+    },
+    {
+     "nomEn": "Sar'theris Striker",
+     "id": 16968,
+     "parCraft": null,
+     "total": null
+    },
+    {
+     "nomEn": "Savage Coast Blue Sailfin",
+     "id": 16969,
+     "parCraft": null,
+     "total": null
+    },
+    {
+     "nomEn": "Misty Reed Mahi Mahi",
+     "id": 16970,
+     "parCraft": null,
+     "total": null
+    }
+   ],
+   "notes": "Artisan: quête Nat Pagle, Angler Extreme (quête 6607) chez Nat Pagle, Tidefury Cove, Dustwallow Marsh (niveau 35, Fishing 225): 1 poisson par zone: Feralas Ahi (Feralas), Misty Reed Mahi Mahi (Swamp of Sorrows), Sar'theris Striker (Desolace), Savage Coast Blue Sailfin (Stranglethorn Vale). Bright Baubles en Feralas. Ensuite pêcher dans les zones listées avec Bright Baubles."
+  }
+ ]
+}

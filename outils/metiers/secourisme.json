@@ -1,0 +1,475 @@
+{
+ "id": "secourisme",
+ "nom": "Secourisme",
+ "nomEn": "First Aid",
+ "source": "https://www.wow-professions.com/forever/first-aid-leveling-guide",
+ "edition": "Forever",
+ "consulte": "2026-10-11",
+ "limites": [
+  "Source Forever basée sur clients bêta; la section 225-300 n'est pas testée et les matériaux peuvent changer.",
+  "Ids d'objets des bandages produits non visibles: null. Ids Soothing Spices et Crystal Vial non visibles: null.",
+  "Champ crafts utilisé (nomEn, sortId, quantite); recetteEn laissé null.",
+  "Sorts de potions (1244431/1244435/1244436) et manuels (255725/255729) propres à Forever, tels que lus sur le guide.",
+  "Maîtres Skyborne (Zephras Isle) non repris; coordonnées null; les maîtres de capitale et de départ enseignent aussi Journeyman."
+ ],
+ "maitres": [
+  {
+   "nom": "Arnok",
+   "zone": "Orgrimmar",
+   "faction": "Horde",
+   "x": null,
+   "y": null,
+   "source": "https://www.wow-professions.com/forever/first-aid-leveling-guide"
+  },
+  {
+   "nom": "Mary Edras",
+   "zone": "Undercity",
+   "faction": "Horde",
+   "x": null,
+   "y": null,
+   "source": "https://www.wow-professions.com/forever/first-aid-leveling-guide"
+  },
+  {
+   "nom": "Pand Stonebinder",
+   "zone": "Thunder Bluff",
+   "faction": "Horde",
+   "x": null,
+   "y": null,
+   "source": "https://www.wow-professions.com/forever/first-aid-leveling-guide"
+  },
+  {
+   "nom": "Shaina Fuller",
+   "zone": "Stormwind City",
+   "faction": "Alliance",
+   "x": null,
+   "y": null,
+   "source": "https://www.wow-professions.com/forever/first-aid-leveling-guide"
+  },
+  {
+   "nom": "Nissa Firestone",
+   "zone": "Ironforge",
+   "faction": "Alliance",
+   "x": null,
+   "y": null,
+   "source": "https://www.wow-professions.com/forever/first-aid-leveling-guide"
+  },
+  {
+   "nom": "Dannelor",
+   "zone": "Darnassus",
+   "faction": "Alliance",
+   "x": null,
+   "y": null,
+   "source": "https://www.wow-professions.com/forever/first-aid-leveling-guide"
+  },
+  {
+   "nom": "Rawrk",
+   "zone": "Razor Hill, Durotar",
+   "faction": "Horde",
+   "x": null,
+   "y": null,
+   "source": "https://www.wow-professions.com/forever/first-aid-leveling-guide"
+  },
+  {
+   "nom": "Vira Younghoof",
+   "zone": "Bloodhoof Village, Mulgore",
+   "faction": "Horde",
+   "x": null,
+   "y": null,
+   "source": "https://www.wow-professions.com/forever/first-aid-leveling-guide"
+  },
+  {
+   "nom": "Nurse Neela",
+   "zone": "Brill, Tirisfal Glades",
+   "faction": "Horde",
+   "x": null,
+   "y": null,
+   "source": "https://www.wow-professions.com/forever/first-aid-leveling-guide"
+  },
+  {
+   "nom": "Michelle Belle",
+   "zone": "Goldshire, Elwynn Forest",
+   "faction": "Alliance",
+   "x": null,
+   "y": null,
+   "source": "https://www.wow-professions.com/forever/first-aid-leveling-guide"
+  },
+  {
+   "nom": "Thamner Pol",
+   "zone": "Kharanos, Dun Morogh",
+   "faction": "Alliance",
+   "x": null,
+   "y": null,
+   "source": "https://www.wow-professions.com/forever/first-aid-leveling-guide"
+  },
+  {
+   "nom": "Byancie",
+   "zone": "Dolanaar, Teldrassil",
+   "faction": "Alliance",
+   "x": null,
+   "y": null,
+   "source": "https://www.wow-professions.com/forever/first-aid-leveling-guide"
+  }
+ ],
+ "etapes": [
+  {
+   "n": 1,
+   "debut": 1,
+   "fin": 40,
+   "recetteEn": null,
+   "recetteSortId": 3275,
+   "recetteObjetId": null,
+   "crafts": [
+    {
+     "nomEn": "Linen Bandage",
+     "sortId": 3275,
+     "quantite": 50
+    }
+   ],
+   "obtention": "Maître",
+   "zones": [
+    "Zones de départ"
+   ],
+   "ingredients": [
+    {
+     "nomEn": "Linen Cloth",
+     "id": 2589,
+     "parCraft": 1,
+     "total": 50
+    }
+   ],
+   "notes": "Linen Bandage x50 (1 Linen Cloth chacun). Alternative 1-75: Minor Healing Potion (sort 1244431, x81: 81 Peacebloom 2447, 81 Mild Spices 2678, 81 Empty Vial 3371; jaune à 55)."
+  },
+  {
+   "n": 2,
+   "debut": 40,
+   "fin": 75,
+   "recetteEn": null,
+   "recetteSortId": 3276,
+   "recetteObjetId": null,
+   "crafts": [
+    {
+     "nomEn": "Heavy Linen Bandage",
+     "sortId": 3276,
+     "quantite": 40
+    }
+   ],
+   "obtention": "Maître",
+   "zones": [
+    "Zones de départ"
+   ],
+   "ingredients": [
+    {
+     "nomEn": "Linen Cloth",
+     "id": 2589,
+     "parCraft": 2,
+     "total": 80
+    }
+   ],
+   "notes": "Heavy Linen Bandage x40 (jaune à 50). Journeyman chez le maître à 50 (tous les maîtres l'enseignent)."
+  },
+  {
+   "n": 3,
+   "debut": 75,
+   "fin": 80,
+   "recetteEn": null,
+   "recetteSortId": 3276,
+   "recetteObjetId": null,
+   "crafts": [
+    {
+     "nomEn": "Heavy Linen Bandage",
+     "sortId": 3276,
+     "quantite": 12
+    }
+   ],
+   "obtention": "Maître",
+   "zones": [
+    "Villes"
+   ],
+   "ingredients": [
+    {
+     "nomEn": "Linen Cloth",
+     "id": 2589,
+     "parCraft": 2,
+     "total": 24
+    }
+   ],
+   "notes": "Heavy Linen Bandage x12 (vert; environ 1 point sur 2)."
+  },
+  {
+   "n": 4,
+   "debut": 80,
+   "fin": 115,
+   "recetteEn": null,
+   "recetteSortId": 3277,
+   "recetteObjetId": null,
+   "crafts": [
+    {
+     "nomEn": "Wool Bandage",
+     "sortId": 3277,
+     "quantite": 50
+    }
+   ],
+   "obtention": "Maître",
+   "zones": [
+    "Villes"
+   ],
+   "ingredients": [
+    {
+     "nomEn": "Wool Cloth",
+     "id": 2592,
+     "parCraft": 1,
+     "total": 50
+    }
+   ],
+   "notes": "Wool Bandage x50, appris à 80."
+  },
+  {
+   "n": 5,
+   "debut": 115,
+   "fin": 150,
+   "recetteEn": null,
+   "recetteSortId": 3278,
+   "recetteObjetId": null,
+   "crafts": [
+    {
+     "nomEn": "Heavy Wool Bandage",
+     "sortId": 3278,
+     "quantite": 50
+    }
+   ],
+   "obtention": "Maître",
+   "zones": [
+    "Villes"
+   ],
+   "ingredients": [
+    {
+     "nomEn": "Wool Cloth",
+     "id": 2592,
+     "parCraft": 2,
+     "total": 100
+    }
+   ],
+   "notes": "Heavy Wool Bandage x50, appris à 115."
+  },
+  {
+   "n": 6,
+   "debut": 150,
+   "fin": 180,
+   "recetteEn": null,
+   "recetteSortId": 7928,
+   "recetteObjetId": null,
+   "crafts": [
+    {
+     "nomEn": "Silk Bandage",
+     "sortId": 7928,
+     "quantite": 42
+    }
+   ],
+   "obtention": "Maître",
+   "zones": [
+    "Villes"
+   ],
+   "ingredients": [
+    {
+     "nomEn": "Silk Cloth",
+     "id": 4306,
+     "parCraft": 1,
+     "total": 42
+    }
+   ],
+   "notes": "Silk Bandage x42. Prérequis: livre Expert First Aid - Under Wraps (item 16084, aucun niveau requis, exige First Aid 125): Deneb Walker (Alliance, Arathi Highlands) ou Balai Lok'Wein (Horde, Dustwallow Marsh); aussi à l'HV. Silk Bandage s'apprend chez le maître."
+  },
+  {
+   "n": 7,
+   "debut": 180,
+   "fin": 210,
+   "recetteEn": null,
+   "recetteSortId": 7929,
+   "recetteObjetId": 16112,
+   "crafts": [
+    {
+     "nomEn": "Heavy Silk Bandage",
+     "sortId": 7929,
+     "quantite": 46
+    }
+   ],
+   "obtention": "Marchand: Deneb Walker (Alliance), Arathi Highlands / Balai Lok'Wein (Horde), Dustwallow Marsh",
+   "zones": [
+    "Villes"
+   ],
+   "ingredients": [
+    {
+     "nomEn": "Silk Cloth",
+     "id": 4306,
+     "parCraft": 2,
+     "total": 92
+    }
+   ],
+   "notes": "Heavy Silk Bandage x46 (jaune sur toute la plage). Manuel vendu par les mêmes marchands que le livre Expert, ou HV."
+  },
+  {
+   "n": 8,
+   "debut": 210,
+   "fin": 225,
+   "recetteEn": null,
+   "recetteSortId": 10840,
+   "recetteObjetId": 16113,
+   "crafts": [
+    {
+     "nomEn": "Mageweave Bandage",
+     "sortId": 10840,
+     "quantite": 17
+    }
+   ],
+   "obtention": "Marchand: Deneb Walker (Alliance), Arathi Highlands / Balai Lok'Wein (Horde), Dustwallow Marsh",
+   "zones": [
+    "Villes"
+   ],
+   "ingredients": [
+    {
+     "nomEn": "Mageweave Cloth",
+     "id": 4338,
+     "parCraft": 1,
+     "total": 17
+    }
+   ],
+   "notes": "Mageweave Bandage x17. Alternative bêta (Mageweave quasi introuvable): 42x Heavy Silk Bandage (7929) avec 84 Silk Cloth."
+  },
+  {
+   "n": 9,
+   "debut": 225,
+   "fin": 240,
+   "recetteEn": null,
+   "recetteSortId": 1244435,
+   "recetteObjetId": 255725,
+   "crafts": [
+    {
+     "nomEn": "Superior Healing Potion",
+     "sortId": 1244435,
+     "quantite": 16
+    }
+   ],
+   "obtention": "Inconnue",
+   "zones": [
+    "Villes"
+   ],
+   "ingredients": [
+    {
+     "nomEn": "Sungrass",
+     "id": 8838,
+     "parCraft": 1,
+     "total": 16
+    },
+    {
+     "nomEn": "Soothing Spices",
+     "id": null,
+     "parCraft": 1,
+     "total": 16
+    },
+    {
+     "nomEn": "Crystal Vial",
+     "id": null,
+     "parCraft": 1,
+     "total": 16
+    }
+   ],
+   "notes": "Superior Healing Potion x16 (sort 1244435, jaune à 230). Avant 225: quête Triage (niveau 35, First Aid 225) chez Doctor Gregory Victor (Horde, Hammerfall, Arathi Highlands) ou Doctor Gustaf VanHowzen (Alliance, Theramore, Dustwallow Marsh): sauver 15 patients. Manuel (item 255725) sans marchand, probablement drop de monstre. Ids Soothing Spices et Crystal Vial non visibles: null."
+  },
+  {
+   "n": 10,
+   "debut": 240,
+   "fin": 260,
+   "recetteEn": null,
+   "recetteSortId": 10841,
+   "recetteObjetId": null,
+   "crafts": [
+    {
+     "nomEn": "Heavy Mageweave Bandage",
+     "sortId": 10841,
+     "quantite": 30
+    }
+   ],
+   "obtention": "Quête: Triage",
+   "zones": [
+    "Villes"
+   ],
+   "ingredients": [
+    {
+     "nomEn": "Mageweave Cloth",
+     "id": 4338,
+     "parCraft": 2,
+     "total": 60
+    }
+   ],
+   "notes": "Heavy Mageweave Bandage x30, enseigné par le médecin de la quête Triage à 240. Section 225-300 non testée selon la source."
+  },
+  {
+   "n": 11,
+   "debut": 260,
+   "fin": 275,
+   "recetteEn": null,
+   "recetteSortId": 18629,
+   "recetteObjetId": null,
+   "crafts": [
+    {
+     "nomEn": "Runecloth Bandage",
+     "sortId": 18629,
+     "quantite": 20
+    }
+   ],
+   "obtention": "Quête: Triage",
+   "zones": [
+    "Villes"
+   ],
+   "ingredients": [
+    {
+     "nomEn": "Runecloth",
+     "id": 14047,
+     "parCraft": 1,
+     "total": 20
+    }
+   ],
+   "notes": "Runecloth Bandage x20, enseigné par le médecin de la quête Triage à 260."
+  },
+  {
+   "n": 12,
+   "debut": 275,
+   "fin": 300,
+   "recetteEn": null,
+   "recetteSortId": 1244436,
+   "recetteObjetId": 255729,
+   "crafts": [
+    {
+     "nomEn": "Major Healing Potion",
+     "sortId": 1244436,
+     "quantite": 30
+    }
+   ],
+   "obtention": "Inconnue",
+   "zones": [
+    "Villes"
+   ],
+   "ingredients": [
+    {
+     "nomEn": "Golden Sansam",
+     "id": 13464,
+     "parCraft": 1,
+     "total": 30
+    },
+    {
+     "nomEn": "Soothing Spices",
+     "id": null,
+     "parCraft": 3,
+     "total": 90
+    },
+    {
+     "nomEn": "Crystal Vial",
+     "id": null,
+     "parCraft": 1,
+     "total": 30
+    }
+   ],
+   "notes": "Major Healing Potion x30 (sort 1244436). Manuel (item 255729) sans marchand, probablement drop de monstre. Ids Soothing Spices et Crystal Vial non visibles: null."
+  }
+ ]
+}

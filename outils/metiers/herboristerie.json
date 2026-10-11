@@ -1,0 +1,447 @@
+{
+ "id": "herboristerie",
+ "nom": "Herboristerie",
+ "nomEn": "Herbalism",
+ "source": "https://www.wow-professions.com/classic/herbalism-leveling-guide-classic-wow",
+ "edition": "Classic Era",
+ "consulte": "2026-10-11",
+ "limites": [
+  "Guide Forever wow-professions (herbalism-leveling-guide) inaccessible (erreur de récupération): données Classic Era, à valider sur client Forever.",
+  "Aucun id de sort; ids d'objets lus dans les liens Wowhead de la page.",
+  "Coordonnées des maîtres non fournies (null).",
+  "La page Classic ne donne pas les compétences requises pour Journeyman/Expert/Artisan.",
+  "Une page Forever (warcrafttavern) indique une progression plus courte et mal lisible; non utilisée pour les plages."
+ ],
+ "maitres": [
+  {
+   "nom": "Jandi",
+   "zone": "Orgrimmar",
+   "faction": "Horde",
+   "x": null,
+   "y": null,
+   "source": "https://www.wow-professions.com/classic/herbalism-leveling-guide-classic-wow"
+  },
+  {
+   "nom": "Martha Alliestar",
+   "zone": "Undercity",
+   "faction": "Horde",
+   "x": null,
+   "y": null,
+   "source": "https://www.wow-professions.com/classic/herbalism-leveling-guide-classic-wow"
+  },
+  {
+   "nom": "Komin Winterhoof",
+   "zone": "Thunder Bluff",
+   "faction": "Horde",
+   "x": null,
+   "y": null,
+   "source": "https://www.wow-professions.com/classic/herbalism-leveling-guide-classic-wow"
+  },
+  {
+   "nom": "Faruza",
+   "zone": "Tirisfal Glades",
+   "faction": "Horde",
+   "x": null,
+   "y": null,
+   "source": "https://www.wow-professions.com/classic/herbalism-leveling-guide-classic-wow"
+  },
+  {
+   "nom": "Mishiki",
+   "zone": "Durotar",
+   "faction": "Horde",
+   "x": null,
+   "y": null,
+   "source": "https://www.wow-professions.com/classic/herbalism-leveling-guide-classic-wow"
+  },
+  {
+   "nom": "Angrun",
+   "zone": "Stranglethorn Vale",
+   "faction": "Horde",
+   "x": null,
+   "y": null,
+   "source": "https://www.wow-professions.com/classic/herbalism-leveling-guide-classic-wow"
+  },
+  {
+   "nom": "Aranae Venomblood",
+   "zone": "Hillsbrad Foothills",
+   "faction": "Horde",
+   "x": null,
+   "y": null,
+   "source": "https://www.wow-professions.com/classic/herbalism-leveling-guide-classic-wow"
+  },
+  {
+   "nom": "Reyna Stonebranch",
+   "zone": "Ironforge",
+   "faction": "Alliance",
+   "x": null,
+   "y": null,
+   "source": "https://www.wow-professions.com/classic/herbalism-leveling-guide-classic-wow"
+  },
+  {
+   "nom": "Tannysa",
+   "zone": "Stormwind City",
+   "faction": "Alliance",
+   "x": null,
+   "y": null,
+   "source": "https://www.wow-professions.com/classic/herbalism-leveling-guide-classic-wow"
+  },
+  {
+   "nom": "Firodren Mooncaller",
+   "zone": "Darnassus",
+   "faction": "Alliance",
+   "x": null,
+   "y": null,
+   "source": "https://www.wow-professions.com/classic/herbalism-leveling-guide-classic-wow"
+  },
+  {
+   "nom": "Herbalist Pomeroy",
+   "zone": "Elwynn Forest",
+   "faction": "Alliance",
+   "x": null,
+   "y": null,
+   "source": "https://www.wow-professions.com/classic/herbalism-leveling-guide-classic-wow"
+  },
+  {
+   "nom": "Malorne Bladeleaf",
+   "zone": "Teldrassil",
+   "faction": "Alliance",
+   "x": null,
+   "y": null,
+   "source": "https://www.wow-professions.com/classic/herbalism-leveling-guide-classic-wow"
+  },
+  {
+   "nom": "Kali Healtouch",
+   "zone": "Loch Modan",
+   "faction": "Alliance",
+   "x": null,
+   "y": null,
+   "source": "https://www.wow-professions.com/classic/herbalism-leveling-guide-classic-wow"
+  },
+  {
+   "nom": "Cylania Rootstalker",
+   "zone": "Ashenvale",
+   "faction": "Alliance",
+   "x": null,
+   "y": null,
+   "source": "https://www.wow-professions.com/classic/herbalism-leveling-guide-classic-wow"
+  },
+  {
+   "nom": "Telurinon Moonshadow",
+   "zone": "Wetlands",
+   "faction": "Alliance",
+   "x": null,
+   "y": null,
+   "source": "https://www.wow-professions.com/classic/herbalism-leveling-guide-classic-wow"
+  },
+  {
+   "nom": "Brant Jasperbloom",
+   "zone": "Dustwallow Marsh",
+   "faction": "Alliance",
+   "x": null,
+   "y": null,
+   "source": "https://www.wow-professions.com/classic/herbalism-leveling-guide-classic-wow"
+  },
+  {
+   "nom": "Alma Jainrose",
+   "zone": "Redridge Mountains",
+   "faction": "Alliance",
+   "x": null,
+   "y": null,
+   "source": "https://www.wow-professions.com/classic/herbalism-leveling-guide-classic-wow"
+  }
+ ],
+ "etapes": [
+  {
+   "n": 1,
+   "debut": 1,
+   "fin": 70,
+   "recetteEn": null,
+   "recetteSortId": null,
+   "recetteObjetId": null,
+   "crafts": null,
+   "obtention": "Aucune",
+   "zones": [
+    "Durotar",
+    "Mulgore",
+    "Tirisfal Glades",
+    "Elwynn Forest",
+    "Teldrassil",
+    "Dun Morogh"
+   ],
+   "ingredients": [
+    {
+     "nomEn": "Peacebloom",
+     "id": 2447,
+     "parCraft": null,
+     "total": null
+    },
+    {
+     "nomEn": "Silverleaf",
+     "id": 765,
+     "parCraft": null,
+     "total": null
+    },
+    {
+     "nomEn": "Earthroot",
+     "id": 2449,
+     "parCraft": null,
+     "total": null
+    }
+   ],
+   "notes": "Herbes des zones de départ. Apprentice appris chez n'importe quel maître."
+  },
+  {
+   "n": 2,
+   "debut": 70,
+   "fin": 115,
+   "recetteEn": null,
+   "recetteSortId": null,
+   "recetteObjetId": null,
+   "crafts": null,
+   "obtention": "Aucune",
+   "zones": [
+    "The Barrens",
+    "Silverpine Forest",
+    "Loch Modan",
+    "Darkshore"
+   ],
+   "ingredients": [
+    {
+     "nomEn": "Mageroyal",
+     "id": 785,
+     "parCraft": null,
+     "total": null
+    },
+    {
+     "nomEn": "Briarthorn",
+     "id": 2450,
+     "parCraft": null,
+     "total": null
+    },
+    {
+     "nomEn": "Stranglekelp",
+     "id": 3820,
+     "parCraft": null,
+     "total": null
+    }
+   ],
+   "notes": "Apprendre Journeyman chez le maître (niveau de compétence exigé non indiqué par la source; la source minage donne 50 pour Journeyman mais non confirmé pour l'herboristerie). Stranglekelp exige compétence 85 (au bord de l'eau). Le Barrens est assez grand pour plusieurs routes."
+  },
+  {
+   "n": 3,
+   "debut": 115,
+   "fin": 170,
+   "recetteEn": null,
+   "recetteSortId": null,
+   "recetteObjetId": null,
+   "crafts": null,
+   "obtention": "Aucune",
+   "zones": [
+    "Hillsbrad Foothills",
+    "Wetlands",
+    "Stonetalon Mountains"
+   ],
+   "ingredients": [
+    {
+     "nomEn": "Bruiseweed",
+     "id": 2453,
+     "parCraft": null,
+     "total": null
+    },
+    {
+     "nomEn": "Wild Steelbloom",
+     "id": 3355,
+     "parCraft": null,
+     "total": null
+    },
+    {
+     "nomEn": "Stranglekelp",
+     "id": 3820,
+     "parCraft": null,
+     "total": null
+    },
+    {
+     "nomEn": "Kingsblood",
+     "id": 3356,
+     "parCraft": null,
+     "total": null
+    },
+    {
+     "nomEn": "Liferoot",
+     "id": 3357,
+     "parCraft": null,
+     "total": null
+    }
+   ],
+   "notes": "Kingsblood exige compétence 125, Liferoot 150. Passer chez le maître à 150 (Expert, prérequis exact non indiqué par la source). Ne pas entrer dans les zones rouges avant 150."
+  },
+  {
+   "n": 4,
+   "debut": 170,
+   "fin": 205,
+   "recetteEn": null,
+   "recetteSortId": null,
+   "recetteObjetId": null,
+   "crafts": null,
+   "obtention": "Aucune",
+   "zones": [
+    "Stranglethorn Vale",
+    "Arathi Highlands"
+   ],
+   "ingredients": [
+    {
+     "nomEn": "Kingsblood",
+     "id": 3356,
+     "parCraft": null,
+     "total": null
+    },
+    {
+     "nomEn": "Liferoot",
+     "id": 3357,
+     "parCraft": null,
+     "total": null
+    },
+    {
+     "nomEn": "Fadeleaf",
+     "id": 3818,
+     "parCraft": null,
+     "total": null
+    },
+    {
+     "nomEn": "Goldthorn",
+     "id": 3821,
+     "parCraft": null,
+     "total": null
+    },
+    {
+     "nomEn": "Khadgar's Whisker",
+     "id": 3358,
+     "parCraft": null,
+     "total": null
+    }
+   ],
+   "notes": "Khadgar's Whisker exige compétence 185."
+  },
+  {
+   "n": 5,
+   "debut": 205,
+   "fin": 230,
+   "recetteEn": null,
+   "recetteSortId": null,
+   "recetteObjetId": null,
+   "crafts": null,
+   "obtention": "Aucune",
+   "zones": [
+    "Tanaris",
+    "Searing Gorge"
+   ],
+   "ingredients": [
+    {
+     "nomEn": "Purple Lotus",
+     "id": 8831,
+     "parCraft": null,
+     "total": null
+    },
+    {
+     "nomEn": "Firebloom",
+     "id": 4625,
+     "parCraft": null,
+     "total": null
+    }
+   ],
+   "notes": "Apprendre Artisan chez le maître vers 205 (prérequis exact non indiqué par la source)."
+  },
+  {
+   "n": 6,
+   "debut": 230,
+   "fin": 270,
+   "recetteEn": null,
+   "recetteSortId": null,
+   "recetteObjetId": null,
+   "crafts": null,
+   "obtention": "Aucune",
+   "zones": [
+    "The Hinterlands"
+   ],
+   "ingredients": [
+    {
+     "nomEn": "Sungrass",
+     "id": 8838,
+     "parCraft": null,
+     "total": null
+    },
+    {
+     "nomEn": "Purple Lotus",
+     "id": 8831,
+     "parCraft": null,
+     "total": null
+    },
+    {
+     "nomEn": "Ghost Mushroom",
+     "id": 8845,
+     "parCraft": null,
+     "total": null
+    },
+    {
+     "nomEn": "Golden Sansam",
+     "id": 13464,
+     "parCraft": null,
+     "total": null
+    }
+   ],
+   "notes": "La grotte riche en Ghost Mushroom exige compétence 245."
+  },
+  {
+   "n": 7,
+   "debut": 270,
+   "fin": 300,
+   "recetteEn": null,
+   "recetteSortId": null,
+   "recetteObjetId": null,
+   "crafts": null,
+   "obtention": "Aucune",
+   "zones": [
+    "Felwood"
+   ],
+   "ingredients": [
+    {
+     "nomEn": "Sungrass",
+     "id": 8838,
+     "parCraft": null,
+     "total": null
+    },
+    {
+     "nomEn": "Gromsblood",
+     "id": 8846,
+     "parCraft": null,
+     "total": null
+    },
+    {
+     "nomEn": "Golden Sansam",
+     "id": 13464,
+     "parCraft": null,
+     "total": null
+    },
+    {
+     "nomEn": "Dreamfoil",
+     "id": 13463,
+     "parCraft": null,
+     "total": null
+    },
+    {
+     "nomEn": "Mountain Silversage",
+     "id": 13465,
+     "parCraft": null,
+     "total": null
+    },
+    {
+     "nomEn": "Plaguebloom",
+     "id": 13466,
+     "parCraft": null,
+     "total": null
+    }
+   ],
+   "notes": "Une page Forever (warcrafttavern) mentionne aussi Icecap et rarement Black Lotus pour 50-60 (ids non visibles: null). Niveaux de compétence requis par herbe non indiqués pour Gromsblood/Dreamfoil/Silversage/Plaguebloom."
+  }
+ ]
+}

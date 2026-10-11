@@ -1,0 +1,423 @@
+{
+ "id": "minage",
+ "nom": "Minage",
+ "nomEn": "Mining",
+ "source": "https://www.wow-professions.com/classic/mining-leveling-guide-classic-wow",
+ "edition": "Classic Era",
+ "consulte": "2026-10-11",
+ "limites": [
+  "Guide Forever wow-professions (mining-leveling-guide) inaccessible: plan de zones Classic Era, à valider sur Forever.",
+  "Fonte et ids (sorts, barres, minerais) tirés du guide Wowhead Classic (WH) ; les ids Forever peuvent différer (ex. sort Smelting générique 2656 mentionné par warcrafttavern Forever).",
+  "Champ crafts utilisé ici pour la fonte (nomEn, sortId, barreId, mineraiNomEn, competenceRequise, note); recetteEn/recetteSortId restent null.",
+  "Forever (warcrafttavern): Dark Iron Deposits en Searing Gorge/Burning Steppes 230-245, Azerothium Bar dès 275, Rich Thorium après 295, Molten Foundry requise pour les fontes haut niveau: non vérifié, non intégré.",
+  "Table Wowhead contient des noeuds propres à SoD (Ooze Covered, Obsidian) ignorés. Id de Coarse Stone non visible: null. Coordonnées des maîtres null.",
+  "Source des ids de fonte: https://www.wowhead.com/classic/guide/mining-leveling-1-300-wow-classic"
+ ],
+ "maitres": [
+  {
+   "nom": "Makaru",
+   "zone": "Orgrimmar",
+   "faction": "Horde",
+   "x": null,
+   "y": null,
+   "source": "https://www.wow-professions.com/classic/mining-leveling-guide-classic-wow"
+  },
+  {
+   "nom": "Brom Killian",
+   "zone": "Undercity",
+   "faction": "Horde",
+   "x": null,
+   "y": null,
+   "source": "https://www.wow-professions.com/classic/mining-leveling-guide-classic-wow"
+  },
+  {
+   "nom": "Brek Stonehoof",
+   "zone": "Thunder Bluff",
+   "faction": "Horde",
+   "x": null,
+   "y": null,
+   "source": "https://www.wow-professions.com/classic/mining-leveling-guide-classic-wow"
+  },
+  {
+   "nom": "Johan Focht",
+   "zone": "Silverpine Forest",
+   "faction": "Horde",
+   "x": null,
+   "y": null,
+   "source": "https://www.wow-professions.com/classic/mining-leveling-guide-classic-wow"
+  },
+  {
+   "nom": "Krunn",
+   "zone": "Durotar",
+   "faction": "Horde",
+   "x": null,
+   "y": null,
+   "source": "https://www.wow-professions.com/classic/mining-leveling-guide-classic-wow"
+  },
+  {
+   "nom": "Pikkle",
+   "zone": "Tanaris",
+   "faction": "Horde",
+   "x": null,
+   "y": null,
+   "source": "https://www.wow-professions.com/classic/mining-leveling-guide-classic-wow"
+  },
+  {
+   "nom": "Geofram Bouldertoe",
+   "zone": "Ironforge",
+   "faction": "Alliance",
+   "x": null,
+   "y": null,
+   "source": "https://www.wow-professions.com/classic/mining-leveling-guide-classic-wow"
+  },
+  {
+   "nom": "Gelman Stonehand",
+   "zone": "Stormwind City",
+   "faction": "Alliance",
+   "x": null,
+   "y": null,
+   "source": "https://www.wow-professions.com/classic/mining-leveling-guide-classic-wow"
+  },
+  {
+   "nom": "Kurdram Stonehammer",
+   "zone": "Darkshore",
+   "faction": "Alliance",
+   "x": null,
+   "y": null,
+   "source": "https://www.wow-professions.com/classic/mining-leveling-guide-classic-wow"
+  },
+  {
+   "nom": "Matt Johnson",
+   "zone": "Duskwood",
+   "faction": "Alliance",
+   "x": null,
+   "y": null,
+   "source": "https://www.wow-professions.com/classic/mining-leveling-guide-classic-wow"
+  },
+  {
+   "nom": "Yarr Hammerstone",
+   "zone": "Dun Morogh",
+   "faction": "Alliance",
+   "x": null,
+   "y": null,
+   "source": "https://www.wow-professions.com/classic/mining-leveling-guide-classic-wow"
+  },
+  {
+   "nom": "Pikkle",
+   "zone": "Tanaris",
+   "faction": "Alliance",
+   "x": null,
+   "y": null,
+   "source": "https://www.wow-professions.com/classic/mining-leveling-guide-classic-wow"
+  }
+ ],
+ "etapes": [
+  {
+   "n": 1,
+   "debut": 1,
+   "fin": 65,
+   "recetteEn": null,
+   "recetteSortId": null,
+   "recetteObjetId": null,
+   "crafts": [
+    {
+     "nomEn": "Smelt Copper",
+     "sortId": 2657,
+     "barreId": 2840,
+     "mineraiNomEn": "Copper Ore",
+     "competenceRequise": 1,
+     "note": null
+    }
+   ],
+   "obtention": "Aucune",
+   "zones": [
+    "Durotar",
+    "Mulgore",
+    "Tirisfal Glades",
+    "Elwynn Forest",
+    "Darkshore",
+    "Dun Morogh"
+   ],
+   "ingredients": [
+    {
+     "nomEn": "Mining Pick",
+     "id": 2901,
+     "parCraft": null,
+     "total": null
+    },
+    {
+     "nomEn": "Copper Ore",
+     "id": 2770,
+     "parCraft": null,
+     "total": null
+    }
+   ],
+   "notes": "Copper Vein (requis 1). Les elfes de la nuit attendent Darkshore (pas de cuivre en Teldrassil). Pioche dans le sac. Fonte: Smelt Copper dès 1 (gris vers 70)."
+  },
+  {
+   "n": 2,
+   "debut": 65,
+   "fin": 125,
+   "recetteEn": null,
+   "recetteSortId": null,
+   "recetteObjetId": null,
+   "crafts": [
+    {
+     "nomEn": "Smelt Tin",
+     "sortId": 3304,
+     "barreId": 3576,
+     "mineraiNomEn": "Tin Ore",
+     "competenceRequise": 65,
+     "note": null
+    },
+    {
+     "nomEn": "Smelt Bronze",
+     "sortId": 2659,
+     "barreId": 2841,
+     "mineraiNomEn": "Copper Bar + Tin Bar",
+     "competenceRequise": 65,
+     "note": "1 Copper Bar (2840) + 1 Tin Bar (3576) -> 2 Bronze Bar"
+    },
+    {
+     "nomEn": "Smelt Silver",
+     "sortId": 2658,
+     "barreId": 2842,
+     "mineraiNomEn": "Silver Ore",
+     "competenceRequise": 75,
+     "note": null
+    }
+   ],
+   "obtention": "Aucune",
+   "zones": [
+    "Hillsbrad Foothills",
+    "Redridge Mountains",
+    "Ashenvale",
+    "The Barrens"
+   ],
+   "ingredients": [
+    {
+     "nomEn": "Copper Ore",
+     "id": 2770,
+     "parCraft": null,
+     "total": null
+    },
+    {
+     "nomEn": "Tin Ore",
+     "id": 2771,
+     "parCraft": null,
+     "total": null
+    },
+    {
+     "nomEn": "Silver Ore",
+     "id": 2775,
+     "parCraft": null,
+     "total": null
+    },
+    {
+     "nomEn": "Coarse Stone",
+     "id": null,
+     "parCraft": null,
+     "total": null
+    }
+   ],
+   "notes": "Journeyman Mining chez le maître (requiert Mining 50). Tin Vein requis 65, Silver Vein 75. Fonte: Smelt Tin 65, Smelt Bronze 65 (Copper Bar + Tin Bar -> 2 Bronze Bar, id Bronze Bar 2841, Tin Bar 3576), Smelt Silver 75 (jusqu'à ~125; acheter le minerai à l'HV). Id de Coarse Stone non visible."
+  },
+  {
+   "n": 3,
+   "debut": 125,
+   "fin": 175,
+   "recetteEn": null,
+   "recetteSortId": null,
+   "recetteObjetId": null,
+   "crafts": [
+    {
+     "nomEn": "Smelt Iron",
+     "sortId": 3307,
+     "barreId": 3575,
+     "mineraiNomEn": "Iron Ore",
+     "competenceRequise": 125,
+     "note": null
+    },
+    {
+     "nomEn": "Smelt Gold",
+     "sortId": 3308,
+     "barreId": 3577,
+     "mineraiNomEn": "Gold Ore",
+     "competenceRequise": 155,
+     "note": null
+    },
+    {
+     "nomEn": "Smelt Steel",
+     "sortId": 3569,
+     "barreId": 3859,
+     "mineraiNomEn": "Iron Bar + Coal",
+     "competenceRequise": 165,
+     "note": "1 Iron Bar (3575) + 1 Coal (3857) -> 1 Steel Bar"
+    }
+   ],
+   "obtention": "Aucune",
+   "zones": [
+    "Arathi Highlands",
+    "Desolace",
+    "Thousand Needles"
+   ],
+   "ingredients": [
+    {
+     "nomEn": "Iron Ore",
+     "id": 2772,
+     "parCraft": null,
+     "total": null
+    },
+    {
+     "nomEn": "Tin Ore",
+     "id": 2771,
+     "parCraft": null,
+     "total": null
+    },
+    {
+     "nomEn": "Gold Ore",
+     "id": 2776,
+     "parCraft": null,
+     "total": null
+    },
+    {
+     "nomEn": "Coal",
+     "id": 3857,
+     "parCraft": null,
+     "total": null
+    }
+   ],
+   "notes": "Expert Mining chez le maître (requiert Mining 125). Iron Deposit requis 125, Gold Vein 155. Fonte: Smelt Iron 125, Smelt Gold 155 (~30 Gold Ore pour ~175), Smelt Steel 165 (Iron Bar + Coal). Arathi: 4 grottes, aller au fond."
+  },
+  {
+   "n": 4,
+   "debut": 175,
+   "fin": 245,
+   "recetteEn": null,
+   "recetteSortId": null,
+   "recetteObjetId": null,
+   "crafts": [
+    {
+     "nomEn": "Smelt Mithril",
+     "sortId": 10097,
+     "barreId": 3860,
+     "mineraiNomEn": "Mithril Ore",
+     "competenceRequise": 175,
+     "note": null
+    },
+    {
+     "nomEn": "Smelt Truesilver",
+     "sortId": 10098,
+     "barreId": 6037,
+     "mineraiNomEn": "Truesilver Ore",
+     "competenceRequise": 230,
+     "note": null
+    },
+    {
+     "nomEn": "Smelt Dark Iron",
+     "sortId": 14891,
+     "barreId": 11371,
+     "mineraiNomEn": "Dark Iron Ore",
+     "competenceRequise": 230,
+     "note": "8 Dark Iron Ore (11370) -> 1 Dark Iron Bar; exige la Black Forge de Blackrock Depths; non utilisé dans le plan de la source"
+    }
+   ],
+   "obtention": "Aucune",
+   "zones": [
+    "The Hinterlands",
+    "Tanaris"
+   ],
+   "ingredients": [
+    {
+     "nomEn": "Mithril Ore",
+     "id": 3858,
+     "parCraft": null,
+     "total": null
+    },
+    {
+     "nomEn": "Truesilver Ore",
+     "id": 7911,
+     "parCraft": null,
+     "total": null
+    }
+   ],
+   "notes": "Mithril Deposit requis 175, Truesilver Deposit 230. Artisan Mining chez le maître (la source indique apprentissage à 225, requiert Mining 200). Fonte: Smelt Mithril 175, Smelt Truesilver 230. Hinterlands: route rouge pleine d'élites niv. 62; Tanaris: éviter les 4 grottes sous niveau 60."
+  },
+  {
+   "n": 5,
+   "debut": 245,
+   "fin": 275,
+   "recetteEn": null,
+   "recetteSortId": null,
+   "recetteObjetId": null,
+   "crafts": [
+    {
+     "nomEn": "Smelt Thorium",
+     "sortId": 16153,
+     "barreId": 12359,
+     "mineraiNomEn": "Thorium Ore",
+     "competenceRequise": 250,
+     "note": null
+    }
+   ],
+   "obtention": "Aucune",
+   "zones": [
+    "Un'Goro Crater",
+    "Blasted Lands",
+    "Felwood"
+   ],
+   "ingredients": [
+    {
+     "nomEn": "Mithril Ore",
+     "id": 3858,
+     "parCraft": null,
+     "total": null
+    },
+    {
+     "nomEn": "Truesilver Ore",
+     "id": 7911,
+     "parCraft": null,
+     "total": null
+    },
+    {
+     "nomEn": "Thorium Ore",
+     "id": 10620,
+     "parCraft": null,
+     "total": null
+    }
+   ],
+   "notes": "Small Thorium Vein requis 245. Fonte: Smelt Thorium 250 (Thorium Ore -> Thorium Bar 12359). Blasted Lands: Alliance ne peut pas miner à Garrison Armory."
+  },
+  {
+   "n": 6,
+   "debut": 275,
+   "fin": 300,
+   "recetteEn": null,
+   "recetteSortId": null,
+   "recetteObjetId": null,
+   "crafts": null,
+   "obtention": "Aucune",
+   "zones": [
+    "Un'Goro Crater",
+    "Eastern Plaguelands",
+    "Winterspring",
+    "Burning Steppes"
+   ],
+   "ingredients": [
+    {
+     "nomEn": "Thorium Ore",
+     "id": 10620,
+     "parCraft": null,
+     "total": null
+    },
+    {
+     "nomEn": "Mithril Ore",
+     "id": 3858,
+     "parCraft": null,
+     "total": null
+    }
+   ],
+   "notes": "Rich Thorium Vein requis 275 (table Wowhead; la page Forever dit 295). Pas de nouvelle fonte dans la source Classic."
+  }
+ ]
+}

@@ -1,0 +1,481 @@
+{
+ "id": "forge",
+ "nom": "Forge",
+ "nomEn": "Blacksmithing",
+ "limites": [
+  "Donnees Forever (beta), pas Classic Era. Chiffres issus de clients beta, susceptibles de changer.",
+  "Palier 225-300 NON COUVERT en recettes: une etape vide (recette null) marque le trou; aucune donnee Classic Era recuperee.",
+  "Maitres listes = ceux des paliers Journeyman/Expert/Artisan; trainers Apprentice (capitales/zones de depart) non listes pour ce metier.",
+  "Coordonnees des maitres: null. Ids d'objet non fournis: Iron Bar, Green Dye, Heavy Leather, pierres a aiguiser/broyer fabriquees: null.",
+  "Ids d'objet de Rough/Coarse/Heavy/Solid Stone, Copper/Bronze/Steel/Mithril Bar, flux, cuirs, Mageweave pris du guide Forever Engineering (memes objets).",
+  "Mode d'obtention des recettes Journeyman+ non precise par le guide: 'Inconnue'. Totaux = produit parCraft x crafts (coherent avec le shopping list du guide a l'arrondi pres).",
+  "Etape 150-165 en 19 crafts comme le guide, alors que 15 points/palier: ajuster selon le jaune."
+ ],
+ "source": "https://www.wow-professions.com/forever/blacksmithing-leveling-guide",
+ "edition": "Forever",
+ "consulte": "2026-10-11",
+ "maitres": [
+  {
+   "nom": "Snarl",
+   "zone": "Orgrimmar",
+   "faction": "Horde",
+   "x": null,
+   "y": null,
+   "source": "https://www.wow-professions.com/forever/blacksmithing-leveling-guide"
+  },
+  {
+   "nom": "James Van Brunt",
+   "zone": "Undercity",
+   "faction": "Horde",
+   "x": null,
+   "y": null,
+   "source": "https://www.wow-professions.com/forever/blacksmithing-leveling-guide"
+  },
+  {
+   "nom": "Karn Stonehoof",
+   "zone": "Thunder Bluff",
+   "faction": "Horde",
+   "x": null,
+   "y": null,
+   "source": "https://www.wow-professions.com/forever/blacksmithing-leveling-guide"
+  },
+  {
+   "nom": "Angus Hammerhand",
+   "zone": "Tirisfal Glades",
+   "faction": "Horde",
+   "x": null,
+   "y": null,
+   "source": "https://www.wow-professions.com/forever/blacksmithing-leveling-guide"
+  },
+  {
+   "nom": "Therum Deepforge",
+   "zone": "Stormwind City",
+   "faction": "Alliance",
+   "x": null,
+   "y": null,
+   "source": "https://www.wow-professions.com/forever/blacksmithing-leveling-guide"
+  },
+  {
+   "nom": "Rotgath Stonebeard",
+   "zone": "Ironforge",
+   "faction": "Alliance",
+   "x": null,
+   "y": null,
+   "source": "https://www.wow-professions.com/forever/blacksmithing-leveling-guide"
+  },
+  {
+   "nom": "Saru Steelfury (Expert)",
+   "zone": "Orgrimmar",
+   "faction": "Horde",
+   "x": null,
+   "y": null,
+   "source": "https://www.wow-professions.com/forever/blacksmithing-leveling-guide"
+  },
+  {
+   "nom": "Bengus Deepforge (Expert)",
+   "zone": "Ironforge",
+   "faction": "Alliance",
+   "x": null,
+   "y": null,
+   "source": "https://www.wow-professions.com/forever/blacksmithing-leveling-guide"
+  },
+  {
+   "nom": "Brikk Keencraft (Artisan)",
+   "zone": "Booty Bay, Stranglethorn Vale",
+   "faction": "Les deux",
+   "x": null,
+   "y": null,
+   "source": "https://www.wow-professions.com/forever/blacksmithing-leveling-guide"
+  }
+ ],
+ "etapes": [
+  {
+   "n": 1,
+   "debut": 1,
+   "fin": 25,
+   "recetteEn": "Rough Sharpening Stone",
+   "recetteSortId": 2660,
+   "recetteObjetId": null,
+   "crafts": 30,
+   "obtention": "Maître",
+   "ingredients": [
+    {
+     "nomEn": "Rough Stone",
+     "id": 2835,
+     "parCraft": 1,
+     "total": 30
+    }
+   ],
+   "notes": "Id d'objet des ingredients repris du guide Forever Engineering (memes objets)."
+  },
+  {
+   "n": 2,
+   "debut": 25,
+   "fin": 50,
+   "recetteEn": "Rough Grinding Stone",
+   "recetteSortId": 3320,
+   "recetteObjetId": null,
+   "crafts": 30,
+   "obtention": "Maître",
+   "ingredients": [
+    {
+     "nomEn": "Rough Stone",
+     "id": 2835,
+     "parCraft": 2,
+     "total": 60
+    }
+   ],
+   "notes": ""
+  },
+  {
+   "n": 3,
+   "debut": 50,
+   "fin": 67,
+   "recetteEn": "Coarse Grinding Stone",
+   "recetteSortId": 3326,
+   "recetteObjetId": null,
+   "crafts": 36,
+   "obtention": "Maître",
+   "ingredients": [
+    {
+     "nomEn": "Coarse Stone",
+     "id": 2836,
+     "parCraft": 2,
+     "total": 72
+    }
+   ],
+   "notes": "Garder les 36 pierres (Patterned Bronze Bracers a 95). Marteau (Blacksmith Hammer, objet 5956) requis des 67."
+  },
+  {
+   "n": 4,
+   "debut": 67,
+   "fin": 75,
+   "recetteEn": "Runed Copper Gauntlets",
+   "recetteSortId": 3323,
+   "recetteObjetId": null,
+   "crafts": 8,
+   "obtention": "Maître",
+   "ingredients": [
+    {
+     "nomEn": "Copper Bar",
+     "id": 2840,
+     "parCraft": 8,
+     "total": 64
+    },
+    {
+     "nomEn": "Rough Grinding Stone",
+     "id": null,
+     "parCraft": 2,
+     "total": 16
+    }
+   ],
+   "notes": "Garder 26 Rough Grinding Stones au total: 16 ici, 10 pour Silver Rods a 75."
+  },
+  {
+   "n": 5,
+   "debut": 75,
+   "fin": 80,
+   "recetteEn": "Runed Copper Belt",
+   "recetteSortId": 2666,
+   "recetteObjetId": null,
+   "crafts": 5,
+   "obtention": "Inconnue",
+   "ingredients": [
+    {
+     "nomEn": "Copper Bar",
+     "id": 2840,
+     "parCraft": 10,
+     "total": 50
+    }
+   ],
+   "notes": "Alternative: 5x Silver Rod (7818), chacun 1 Silver Bar + 2 Rough Grinding Stone. Journeyman requis (BS 50, niveau 10)."
+  },
+  {
+   "n": 6,
+   "debut": 80,
+   "fin": 95,
+   "recetteEn": "Rough Bronze Leggings",
+   "recetteSortId": 2668,
+   "recetteObjetId": null,
+   "crafts": 15,
+   "obtention": "Inconnue",
+   "ingredients": [
+    {
+     "nomEn": "Bronze Bar",
+     "id": 2841,
+     "parCraft": 6,
+     "total": 90
+    }
+   ],
+   "notes": "Obtention non precisee par le guide."
+  },
+  {
+   "n": 7,
+   "debut": 95,
+   "fin": 100,
+   "recetteEn": "Patterned Bronze Bracers",
+   "recetteSortId": 2672,
+   "recetteObjetId": null,
+   "crafts": 5,
+   "obtention": "Inconnue",
+   "ingredients": [
+    {
+     "nomEn": "Bronze Bar",
+     "id": 2841,
+     "parCraft": 5,
+     "total": 25
+    },
+    {
+     "nomEn": "Coarse Grinding Stone",
+     "id": null,
+     "parCraft": 2,
+     "total": 10
+    }
+   ],
+   "notes": "Utilise les pierres fabriquees a 50."
+  },
+  {
+   "n": 8,
+   "debut": 100,
+   "fin": 112,
+   "recetteEn": "Heavy Grinding Stone",
+   "recetteSortId": 3337,
+   "recetteObjetId": null,
+   "crafts": 20,
+   "obtention": "Maître",
+   "ingredients": [
+    {
+     "nomEn": "Heavy Stone",
+     "id": 2838,
+     "parCraft": 3,
+     "total": 60
+    }
+   ],
+   "notes": "Garder pour plus tard."
+  },
+  {
+   "n": 9,
+   "debut": 112,
+   "fin": 125,
+   "recetteEn": "Patterned Bronze Bracers",
+   "recetteSortId": 2672,
+   "recetteObjetId": null,
+   "crafts": 13,
+   "obtention": "Inconnue",
+   "ingredients": [
+    {
+     "nomEn": "Bronze Bar",
+     "id": 2841,
+     "parCraft": 5,
+     "total": 65
+    },
+    {
+     "nomEn": "Coarse Grinding Stone",
+     "id": null,
+     "parCraft": 2,
+     "total": 26
+    }
+   ],
+   "notes": ""
+  },
+  {
+   "n": 10,
+   "debut": 125,
+   "fin": 140,
+   "recetteEn": "Bronze Shortsword",
+   "recetteSortId": 2742,
+   "recetteObjetId": null,
+   "crafts": 24,
+   "obtention": "Inconnue",
+   "ingredients": [
+    {
+     "nomEn": "Bronze Bar",
+     "id": 2841,
+     "parCraft": 5,
+     "total": 120
+    },
+    {
+     "nomEn": "Weak Flux",
+     "id": 2880,
+     "parCraft": 4,
+     "total": 96
+    },
+    {
+     "nomEn": "Medium Leather",
+     "id": 2319,
+     "parCraft": 2,
+     "total": 48
+    }
+   ],
+   "notes": "Weak Flux (2880) vendu a cote des maitres Journeyman de chaque capitale."
+  },
+  {
+   "n": 11,
+   "debut": 140,
+   "fin": 150,
+   "recetteEn": "Bronze Warhammer",
+   "recetteSortId": 9985,
+   "recetteObjetId": null,
+   "crafts": 10,
+   "obtention": "Inconnue",
+   "ingredients": [
+    {
+     "nomEn": "Bronze Bar",
+     "id": 2841,
+     "parCraft": 8,
+     "total": 80
+    },
+    {
+     "nomEn": "Strong Flux",
+     "id": 3466,
+     "parCraft": 1,
+     "total": 10
+    },
+    {
+     "nomEn": "Medium Leather",
+     "id": 2319,
+     "parCraft": 1,
+     "total": 10
+    }
+   ],
+   "notes": "Strong Flux (3466) vendu par le vendeur Blacksmithing Supply de chaque capitale."
+  },
+  {
+   "n": 12,
+   "debut": 150,
+   "fin": 165,
+   "recetteEn": "Bronze Warhammer",
+   "recetteSortId": 9985,
+   "recetteObjetId": null,
+   "crafts": 19,
+   "obtention": "Inconnue",
+   "ingredients": [
+    {
+     "nomEn": "Bronze Bar",
+     "id": 2841,
+     "parCraft": 8,
+     "total": 152
+    },
+    {
+     "nomEn": "Strong Flux",
+     "id": 3466,
+     "parCraft": 1,
+     "total": 19
+    },
+    {
+     "nomEn": "Medium Leather",
+     "id": 2319,
+     "parCraft": 1,
+     "total": 19
+    }
+   ],
+   "notes": "Expert requis (BS 125, niveau 20, 50 argent)."
+  },
+  {
+   "n": 13,
+   "debut": 165,
+   "fin": 175,
+   "recetteEn": "Green Iron Bracers",
+   "recetteSortId": 3501,
+   "recetteObjetId": null,
+   "crafts": 15,
+   "obtention": "Inconnue",
+   "ingredients": [
+    {
+     "nomEn": "Iron Bar",
+     "id": null,
+     "parCraft": 6,
+     "total": 90
+    },
+    {
+     "nomEn": "Green Dye",
+     "id": null,
+     "parCraft": 1,
+     "total": 15
+    }
+   ],
+   "notes": "Green Dye: Tamar (Orgrimmar), Millie Gregorian (Undercity), Mahu (Thunder Bluff), Jillian Tanner (Stormwind), Bombus Finespindle (Ironforge). Ids Iron Bar/Green Dye non fournis."
+  },
+  {
+   "n": 14,
+   "debut": 175,
+   "fin": 185,
+   "recetteEn": "Solid Grinding Stone",
+   "recetteSortId": 9920,
+   "recetteObjetId": null,
+   "crafts": 40,
+   "obtention": "Inconnue",
+   "ingredients": [
+    {
+     "nomEn": "Solid Stone",
+     "id": 7912,
+     "parCraft": 4,
+     "total": 160
+    }
+   ],
+   "notes": "Seuls quelques crafts donnent des points (vert a 180). Alt beta (si on ne depasse pas 200): 10x Golden Scale Bracers (7223): 50 Steel Bar + 20 Heavy Grinding Stone."
+  },
+  {
+   "n": 15,
+   "debut": 185,
+   "fin": 200,
+   "recetteEn": "Heavy Mithril Gauntlet",
+   "recetteSortId": 9928,
+   "recetteObjetId": null,
+   "crafts": 15,
+   "obtention": "Inconnue",
+   "ingredients": [
+    {
+     "nomEn": "Mithril Bar",
+     "id": 3860,
+     "parCraft": 6,
+     "total": 90
+    },
+    {
+     "nomEn": "Mageweave Cloth",
+     "id": 4338,
+     "parCraft": 4,
+     "total": 60
+    }
+   ],
+   "notes": "Alt beta (Mageweave rare): 15x Heavy Mithril Shoulder (9926): 120 Mithril Bar + 90 Heavy Leather."
+  },
+  {
+   "n": 16,
+   "debut": 200,
+   "fin": 225,
+   "recetteEn": "Steel Plate Helm",
+   "recetteSortId": 9935,
+   "recetteObjetId": null,
+   "crafts": 37,
+   "obtention": "Inconnue",
+   "ingredients": [
+    {
+     "nomEn": "Steel Bar",
+     "id": 3859,
+     "parCraft": 14,
+     "total": 518
+    },
+    {
+     "nomEn": "Solid Grinding Stone",
+     "id": null,
+     "parCraft": 1,
+     "total": 37
+    }
+   ],
+   "notes": "Jaune des 210, vert des 220. Alt des 210: 15x Mithril Spurs (9964): 60 Mithril Bar + 45 Solid Grinding Stone; plans = objet 7989 (drop mondial)."
+  },
+  {
+   "n": 17,
+   "debut": 225,
+   "fin": 300,
+   "recetteEn": null,
+   "recetteSortId": null,
+   "recetteObjetId": null,
+   "crafts": null,
+   "obtention": "Inconnue",
+   "ingredients": [],
+   "notes": "AUCUNE ETAPE: le guide Forever Artisan 225-300 est un brouillon non teste sans recettes, base sur des plages datamined (les recettes grisent ~25 points plus tot qu'en Classic). A completer avec un guide Classic Era (non recupere ici). Maitre Artisan: Brikk Keencraft (Booty Bay). Requis: BS 200, niveau 35."
+  }
+ ]
+}

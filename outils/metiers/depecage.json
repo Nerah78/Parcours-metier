@@ -1,0 +1,214 @@
+{
+ "id": "depecage",
+ "nom": "Dépeçage",
+ "nomEn": "Skinning",
+ "source": "https://www.wow-professions.com/classic/skinning-leveling-guide-classic-wow",
+ "edition": "Classic Era",
+ "consulte": "2026-10-11",
+ "limites": [
+  "Guide Forever wow-professions (skinning-leveling-guide) inaccessible: données Classic Era, à valider sur Forever.",
+  "Aucun id de sort ni de monstre; seul l'id du Skinning Knife (7005) est donné par la source.",
+  "Pas de noms de monstres précis (zones et paliers seulement); warcrafttavern Forever donne des bandes de niveau de monstres (10-20, 20-30, 30-40, 40-50, 50-60) non intégrées aux plages.",
+  "Coordonnées des maîtres null; Journeyman/Expert/Artisan: paliers 50/125/200 indiqués par warcrafttavern Forever (200), non confirmés ailleurs."
+ ],
+ "maitres": [
+  {
+   "nom": "Thuwd",
+   "zone": "Orgrimmar",
+   "faction": "Horde",
+   "x": null,
+   "y": null,
+   "source": "https://www.wow-professions.com/classic/skinning-leveling-guide-classic-wow"
+  },
+  {
+   "nom": "Balthus Stoneflayer",
+   "zone": "Ironforge",
+   "faction": "Alliance",
+   "x": null,
+   "y": null,
+   "source": "https://www.wow-professions.com/classic/skinning-leveling-guide-classic-wow"
+  },
+  {
+   "nom": "Dranh",
+   "zone": "Camp Taurajo, The Barrens",
+   "faction": "Horde",
+   "x": null,
+   "y": null,
+   "source": "https://www.wow-professions.com/classic/skinning-leveling-guide-classic-wow"
+  },
+  {
+   "nom": "Kulleg Stonehorn",
+   "zone": "Camp Mojache, Feralas",
+   "faction": "Horde",
+   "x": null,
+   "y": null,
+   "source": "https://www.wow-professions.com/classic/skinning-leveling-guide-classic-wow"
+  }
+ ],
+ "etapes": [
+  {
+   "n": 1,
+   "debut": 1,
+   "fin": 75,
+   "recetteEn": null,
+   "recetteSortId": null,
+   "recetteObjetId": null,
+   "crafts": null,
+   "obtention": "Aucune",
+   "zones": [
+    "Durotar",
+    "Dun Morogh",
+    "Mulgore",
+    "Tirisfal Glades",
+    "Elwynn Forest",
+    "Teldrassil"
+   ],
+   "ingredients": [
+    {
+     "nomEn": "Skinning Knife",
+     "id": 7005,
+     "parCraft": null,
+     "total": null
+    }
+   ],
+   "notes": "Bêtes des zones de départ (niv. 1-6 non dépeçables avant d'avoir le métier niv. 5 selon la source). Couteau dans les sacs. Horde: Sen'jin vers Orgrimmar; Alliance: tour du lac près d'Ironforge. Journeyman chez le maître à 50 (Thuwd / Balthus). Règle: niveau max dépeçable = compétence/10+10 jusqu'à 100, puis compétence/5."
+  },
+  {
+   "n": 2,
+   "debut": 75,
+   "fin": 155,
+   "recetteEn": null,
+   "recetteSortId": null,
+   "recetteObjetId": null,
+   "crafts": null,
+   "obtention": "Aucune",
+   "zones": [
+    "The Barrens",
+    "Loch Modan",
+    "Wetlands",
+    "Thousand Needles"
+   ],
+   "ingredients": [
+    {
+     "nomEn": "Skinning Knife",
+     "id": 7005,
+     "parCraft": null,
+     "total": null
+    }
+   ],
+   "notes": "Horde: bêtes jusqu'à Camp Taurajo, Expert chez Dranh avant/à 125; puis Wetlands (115-~140 vers Menethil Harbor). Alliance: Expert chez Balthus (Ironforge) vers 125-140. Atteindre 155 pour dépecer les raptors niv. 31 d'Arathi (la source dit 155/165 selon l'endroit)."
+  },
+  {
+   "n": 3,
+   "debut": 155,
+   "fin": 205,
+   "recetteEn": null,
+   "recetteSortId": null,
+   "recetteObjetId": null,
+   "crafts": null,
+   "obtention": "Aucune",
+   "zones": [
+    "Thousand Needles",
+    "Arathi Highlands"
+   ],
+   "ingredients": [
+    {
+     "nomEn": "Skinning Knife",
+     "id": 7005,
+     "parCraft": null,
+     "total": null
+    }
+   ],
+   "notes": "Parcours Thousand Needles de 165 à 205. 170-205: raptors de niveau supérieur; coin sud-est (niv. 36-37) seulement à partir de 180. Artisan après 205: Horde chez Kulleg Stonehorn (Camp Mojache, Feralas), Alliance chez Balthus (Ironforge)."
+  },
+  {
+   "n": 4,
+   "debut": 205,
+   "fin": 230,
+   "recetteEn": null,
+   "recetteSortId": null,
+   "recetteObjetId": null,
+   "crafts": null,
+   "obtention": "Aucune",
+   "zones": [
+    "Feralas"
+   ],
+   "ingredients": [
+    {
+     "nomEn": "Skinning Knife",
+     "id": 7005,
+     "parCraft": null,
+     "total": null
+    }
+   ],
+   "notes": "Bêtes autour de Camp Mojache (les deux factions)."
+  },
+  {
+   "n": 5,
+   "debut": 230,
+   "fin": 260,
+   "recetteEn": null,
+   "recetteSortId": null,
+   "recetteObjetId": null,
+   "crafts": null,
+   "obtention": "Aucune",
+   "zones": [
+    "Feralas"
+   ],
+   "ingredients": [
+    {
+     "nomEn": "Skinning Knife",
+     "id": 7005,
+     "parCraft": null,
+     "total": null
+    }
+   ],
+   "notes": "Grotte des yétis; si occupée, hippogriffes au sud."
+  },
+  {
+   "n": 6,
+   "debut": 260,
+   "fin": 280,
+   "recetteEn": null,
+   "recetteSortId": null,
+   "recetteObjetId": null,
+   "crafts": null,
+   "obtention": "Aucune",
+   "zones": [
+    "Feralas"
+   ],
+   "ingredients": [
+    {
+     "nomEn": "Skinning Knife",
+     "id": 7005,
+     "parCraft": null,
+     "total": null
+    }
+   ],
+   "notes": "Yétis de niveau supérieur dans la grotte, puis bêtes devant la grotte."
+  },
+  {
+   "n": 7,
+   "debut": 280,
+   "fin": 300,
+   "recetteEn": null,
+   "recetteSortId": null,
+   "recetteObjetId": null,
+   "crafts": null,
+   "obtention": "Aucune",
+   "zones": [
+    "Un'Goro Crater",
+    "Feralas"
+   ],
+   "ingredients": [
+    {
+     "nomEn": "Skinning Knife",
+     "id": 7005,
+     "parCraft": null,
+     "total": null
+    }
+   ],
+   "notes": "Un'Goro Crater, ou rester devant la grotte de Feralas. Enchant Gloves - Skinning (item 11166 selon la page) permet de dépecer un niveau au-dessus."
+  }
+ ]
+}

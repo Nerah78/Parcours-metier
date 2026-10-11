@@ -1,0 +1,596 @@
+{
+ "id": "alchimie",
+ "nom": "Alchimie",
+ "nomEn": "Alchemy",
+ "limites": [
+  "Donnees Forever (beta), pas Classic Era. Le guide precise que tout peut changer avant le lancement.",
+  "Section 225-300 marquee non testee; liste de materiaux arretee a 290; 290-300 'non decide' (Major Frenzy Potion retenu comme option listee).",
+  "Etape 275-290: option Superior Mana Potion retenue, 2 alternatives en notes.",
+  "Coordonnees (x,y) des maitres non fournies: null.",
+  "Ids d'objet non fournis par le guide: Empty/Leaded/Crystal/Imbued Vial, Fire Oil, Plaguebloom, Stonescale Oil, Ghost Mushroom: null.",
+  "Mode d'obtention des recettes d'artisanat non precise par le guide (hors vendeurs cites): 'Inconnue'. Ids de spell 1245246/1251740 etc. (>1M) repris tels que listes par le guide.",
+  "Liste de maitres: trainers cites par le guide, zones non verifiees individuellement; pas de trainers de zones de depart."
+ ],
+ "source": "https://www.wow-professions.com/forever/alchemy-leveling-guide",
+ "edition": "Forever",
+ "consulte": "2026-10-11",
+ "maitres": [
+  {
+   "nom": "Whuut",
+   "zone": "Orgrimmar",
+   "faction": "Horde",
+   "x": null,
+   "y": null,
+   "source": "https://www.wow-professions.com/forever/alchemy-leveling-guide"
+  },
+  {
+   "nom": "Doctor Martin Felben",
+   "zone": "Undercity",
+   "faction": "Horde",
+   "x": null,
+   "y": null,
+   "source": "https://www.wow-professions.com/forever/alchemy-leveling-guide"
+  },
+  {
+   "nom": "Kray",
+   "zone": "Thunder Bluff",
+   "faction": "Horde",
+   "x": null,
+   "y": null,
+   "source": "https://www.wow-professions.com/forever/alchemy-leveling-guide"
+  },
+  {
+   "nom": "Tel'Athir",
+   "zone": "Stormwind City",
+   "faction": "Alliance",
+   "x": null,
+   "y": null,
+   "source": "https://www.wow-professions.com/forever/alchemy-leveling-guide"
+  },
+  {
+   "nom": "Vosur Brakthel",
+   "zone": "Ironforge",
+   "faction": "Alliance",
+   "x": null,
+   "y": null,
+   "source": "https://www.wow-professions.com/forever/alchemy-leveling-guide"
+  },
+  {
+   "nom": "Milla Fairancora",
+   "zone": "Darnassus",
+   "faction": "Alliance",
+   "x": null,
+   "y": null,
+   "source": "https://www.wow-professions.com/forever/alchemy-leveling-guide"
+  },
+  {
+   "nom": "Yelmak (Journeyman)",
+   "zone": "Orgrimmar",
+   "faction": "Horde",
+   "x": null,
+   "y": null,
+   "source": "https://www.wow-professions.com/forever/alchemy-leveling-guide"
+  },
+  {
+   "nom": "Doctor Marsh (Journeyman)",
+   "zone": "Undercity",
+   "faction": "Horde",
+   "x": null,
+   "y": null,
+   "source": "https://www.wow-professions.com/forever/alchemy-leveling-guide"
+  },
+  {
+   "nom": "Bena Winterhoof (Journeyman)",
+   "zone": "Thunder Bluff",
+   "faction": "Horde",
+   "x": null,
+   "y": null,
+   "source": "https://www.wow-professions.com/forever/alchemy-leveling-guide"
+  },
+  {
+   "nom": "Lilyssia Nightbreeze (Journeyman)",
+   "zone": "Stormwind City",
+   "faction": "Alliance",
+   "x": null,
+   "y": null,
+   "source": "https://www.wow-professions.com/forever/alchemy-leveling-guide"
+  },
+  {
+   "nom": "Tally Berryfizz (Journeyman)",
+   "zone": "Ironforge",
+   "faction": "Alliance",
+   "x": null,
+   "y": null,
+   "source": "https://www.wow-professions.com/forever/alchemy-leveling-guide"
+  },
+  {
+   "nom": "Sylvanna Forestmoon (Journeyman)",
+   "zone": "Darnassus",
+   "faction": "Alliance",
+   "x": null,
+   "y": null,
+   "source": "https://www.wow-professions.com/forever/alchemy-leveling-guide"
+  },
+  {
+   "nom": "Doctor Herbert Halsey (Expert)",
+   "zone": "Undercity",
+   "faction": "Horde",
+   "x": null,
+   "y": null,
+   "source": "https://www.wow-professions.com/forever/alchemy-leveling-guide"
+  },
+  {
+   "nom": "Ainethil (Expert)",
+   "zone": "Darnassus",
+   "faction": "Alliance",
+   "x": null,
+   "y": null,
+   "source": "https://www.wow-professions.com/forever/alchemy-leveling-guide"
+  },
+  {
+   "nom": "Rogvar (Artisan)",
+   "zone": "Stonard, Swamp of Sorrows",
+   "faction": "Horde",
+   "x": null,
+   "y": null,
+   "source": "https://www.wow-professions.com/forever/alchemy-leveling-guide"
+  },
+  {
+   "nom": "Kylanna Windwhisper (Artisan)",
+   "zone": "Feathermoon Stronghold, Feralas",
+   "faction": "Alliance",
+   "x": null,
+   "y": null,
+   "source": "https://www.wow-professions.com/forever/alchemy-leveling-guide"
+  }
+ ],
+ "etapes": [
+  {
+   "n": 1,
+   "debut": 1,
+   "fin": 10,
+   "recetteEn": "Minor Arcane Elixir",
+   "recetteSortId": 1245246,
+   "recetteObjetId": null,
+   "crafts": 9,
+   "obtention": "Inconnue",
+   "ingredients": [
+    {
+     "nomEn": "Peacebloom",
+     "id": 2447,
+     "parCraft": 1,
+     "total": 9
+    },
+    {
+     "nomEn": "Empty Vial",
+     "id": null,
+     "parCraft": 1,
+     "total": 9
+    }
+   ],
+   "notes": "Obtention non precisee par le guide. Alternative: Elixir of Minor Force (spell 1245250): 9 crafts, 9 Silverleaf (id 765) + 9 Empty Vial. Empty Vial vendors: Algernon (Undercity), Narret Shadowgrove (Dolanaar). Ids de spell 1245246/1245250 tels que listes par le guide Forever."
+  },
+  {
+   "n": 2,
+   "debut": 10,
+   "fin": 55,
+   "recetteEn": "Elixir of Minor Defense",
+   "recetteSortId": 7183,
+   "recetteObjetId": null,
+   "crafts": 45,
+   "obtention": "Inconnue",
+   "ingredients": [
+    {
+     "nomEn": "Silverleaf",
+     "id": 765,
+     "parCraft": 1,
+     "total": 45
+    },
+    {
+     "nomEn": "Peacebloom",
+     "id": 2447,
+     "parCraft": 1,
+     "total": 45
+    },
+    {
+     "nomEn": "Empty Vial",
+     "id": null,
+     "parCraft": 1,
+     "total": 45
+    }
+   ],
+   "notes": "Obtention non precisee par le guide."
+  },
+  {
+   "n": 3,
+   "debut": 55,
+   "fin": 65,
+   "recetteEn": "Minor Mana Potion",
+   "recetteSortId": 2331,
+   "recetteObjetId": null,
+   "crafts": 10,
+   "obtention": "Inconnue",
+   "ingredients": [
+    {
+     "nomEn": "Mageroyal",
+     "id": 785,
+     "parCraft": 1,
+     "total": 10
+    },
+    {
+     "nomEn": "Peacebloom",
+     "id": 2447,
+     "parCraft": 1,
+     "total": 10
+    },
+    {
+     "nomEn": "Empty Vial",
+     "id": null,
+     "parCraft": 1,
+     "total": 10
+    }
+   ],
+   "notes": "Obtention non precisee par le guide. Journeyman requis (Alchemy 50, niveau 10)."
+  },
+  {
+   "n": 4,
+   "debut": 65,
+   "fin": 90,
+   "recetteEn": "Elixir of Minor Fortitude",
+   "recetteSortId": 2334,
+   "recetteObjetId": null,
+   "crafts": 27,
+   "obtention": "Inconnue",
+   "ingredients": [
+    {
+     "nomEn": "Earthroot",
+     "id": 2449,
+     "parCraft": 2,
+     "total": 54
+    },
+    {
+     "nomEn": "Peacebloom",
+     "id": 2447,
+     "parCraft": 1,
+     "total": 27
+    },
+    {
+     "nomEn": "Empty Vial",
+     "id": null,
+     "parCraft": 1,
+     "total": 27
+    }
+   ],
+   "notes": "Obtention non precisee par le guide. Devient jaune a 80; les 10 derniers points demandent plus de crafts."
+  },
+  {
+   "n": 5,
+   "debut": 90,
+   "fin": 120,
+   "recetteEn": "Elixir of Wisdom",
+   "recetteSortId": 3171,
+   "recetteObjetId": null,
+   "crafts": 30,
+   "obtention": "Inconnue",
+   "ingredients": [
+    {
+     "nomEn": "Mageroyal",
+     "id": 785,
+     "parCraft": 1,
+     "total": 30
+    },
+    {
+     "nomEn": "Briarthorn",
+     "id": 2450,
+     "parCraft": 2,
+     "total": 60
+    },
+    {
+     "nomEn": "Empty Vial",
+     "id": null,
+     "parCraft": 1,
+     "total": 30
+    }
+   ],
+   "notes": "Obtention non precisee par le guide. Garder les elixirs si Tailoring (Gloves of Meditation)."
+  },
+  {
+   "n": 6,
+   "debut": 120,
+   "fin": 130,
+   "recetteEn": "Lesser Mana Potion",
+   "recetteSortId": 3173,
+   "recetteObjetId": null,
+   "crafts": 10,
+   "obtention": "Inconnue",
+   "ingredients": [
+    {
+     "nomEn": "Mageroyal",
+     "id": 785,
+     "parCraft": 1,
+     "total": 10
+    },
+    {
+     "nomEn": "Stranglekelp",
+     "id": 3820,
+     "parCraft": 1,
+     "total": 10
+    },
+    {
+     "nomEn": "Empty Vial",
+     "id": null,
+     "parCraft": 1,
+     "total": 10
+    }
+   ],
+   "notes": "Obtention non precisee par le guide."
+  },
+  {
+   "n": 7,
+   "debut": 130,
+   "fin": 150,
+   "recetteEn": "Fire Oil",
+   "recetteSortId": 7837,
+   "recetteObjetId": null,
+   "crafts": 20,
+   "obtention": "Inconnue",
+   "ingredients": [
+    {
+     "nomEn": "Firefin Snapper",
+     "id": 6359,
+     "parCraft": 2,
+     "total": 40
+    },
+    {
+     "nomEn": "Empty Vial",
+     "id": null,
+     "parCraft": 1,
+     "total": 20
+    }
+   ],
+   "notes": "Obtention non precisee par le guide. 2 huiles par craft; garder 30 Fire Oil pour Elixir of Fire Power (150-165). Alternative: Lesser Mana Potion (3173) 20 crafts: 20 Mageroyal, 20 Stranglekelp, 20 Empty Vial. Fire Oil: id d'objet non fourni (null)."
+  },
+  {
+   "n": 8,
+   "debut": 150,
+   "fin": 165,
+   "recetteEn": "Elixir of Fire Power",
+   "recetteSortId": 7845,
+   "recetteObjetId": null,
+   "crafts": 15,
+   "obtention": "Inconnue",
+   "ingredients": [
+    {
+     "nomEn": "Fire Oil",
+     "id": null,
+     "parCraft": 2,
+     "total": 30
+    },
+    {
+     "nomEn": "Kingsblood",
+     "id": 3356,
+     "parCraft": 1,
+     "total": 15
+    },
+    {
+     "nomEn": "Leaded Vial",
+     "id": null,
+     "parCraft": 1,
+     "total": 15
+    }
+   ],
+   "notes": "Obtention non precisee par le guide. Utilise les Fire Oil gardees. Alternative: Lesser Mana Potion (3173) 22 crafts: 22 Mageroyal, 22 Stranglekelp, 22 Empty Vial. Expert requis (Alchemy 125, niveau 20, 50 argent)."
+  },
+  {
+   "n": 9,
+   "debut": 165,
+   "fin": 195,
+   "recetteEn": "Mana Potion",
+   "recetteSortId": 3452,
+   "recetteObjetId": null,
+   "crafts": 36,
+   "obtention": "Inconnue",
+   "ingredients": [
+    {
+     "nomEn": "Stranglekelp",
+     "id": 3820,
+     "parCraft": 1,
+     "total": 36
+    },
+    {
+     "nomEn": "Kingsblood",
+     "id": 3356,
+     "parCraft": 1,
+     "total": 36
+    },
+    {
+     "nomEn": "Leaded Vial",
+     "id": null,
+     "parCraft": 1,
+     "total": 36
+    }
+   ],
+   "notes": "Obtention non precisee par le guide."
+  },
+  {
+   "n": 10,
+   "debut": 195,
+   "fin": 225,
+   "recetteEn": "Nature Protection Potion",
+   "recetteSortId": 7259,
+   "recetteObjetId": 6057,
+   "crafts": 36,
+   "obtention": "Marchand: Bronk / Logannas, Feralas; Glyx Brewright, Stranglethorn Vale; Alchemist Pestlezugg, Tanaris",
+   "ingredients": [
+    {
+     "nomEn": "Liferoot",
+     "id": 3357,
+     "parCraft": 1,
+     "total": 36
+    },
+    {
+     "nomEn": "Stranglekelp",
+     "id": 3820,
+     "parCraft": 1,
+     "total": 36
+    },
+    {
+     "nomEn": "Leaded Vial",
+     "id": null,
+     "parCraft": 1,
+     "total": 36
+    }
+   ],
+   "notes": "Recette = objet 6057 (BoP), vendue par les 4 PNJ cites (zones selon le guide Forever; sous-zones exactes non verifiees)."
+  },
+  {
+   "n": 11,
+   "debut": 225,
+   "fin": 230,
+   "recetteEn": "Nature Protection Potion",
+   "recetteSortId": 7259,
+   "recetteObjetId": 6057,
+   "crafts": 12,
+   "obtention": "Marchand: Bronk / Logannas, Feralas; Glyx Brewright, Stranglethorn Vale; Alchemist Pestlezugg, Tanaris",
+   "ingredients": [
+    {
+     "nomEn": "Liferoot",
+     "id": 3357,
+     "parCraft": 1,
+     "total": 12
+    },
+    {
+     "nomEn": "Stranglekelp",
+     "id": 3820,
+     "parCraft": 1,
+     "total": 12
+    },
+    {
+     "nomEn": "Leaded Vial",
+     "id": null,
+     "parCraft": 1,
+     "total": 12
+    }
+   ],
+   "notes": "Section 225-300 marquee NON TESTEE par le guide. Artisan requis (Alchemy 200, niveau 35)."
+  },
+  {
+   "n": 12,
+   "debut": 230,
+   "fin": 265,
+   "recetteEn": "Draught of Detect Undead",
+   "recetteSortId": 11460,
+   "recetteObjetId": null,
+   "crafts": 45,
+   "obtention": "Inconnue",
+   "ingredients": [
+    {
+     "nomEn": "Arthas' Tears",
+     "id": 8836,
+     "parCraft": 1,
+     "total": 45
+    },
+    {
+     "nomEn": "Crystal Vial",
+     "id": null,
+     "parCraft": 1,
+     "total": 45
+    }
+   ],
+   "notes": "Obtention non precisee par le guide. Jaune a partir de 245; acheter en plus. Non teste."
+  },
+  {
+   "n": 13,
+   "debut": 265,
+   "fin": 275,
+   "recetteEn": "Superior Mana Potion",
+   "recetteSortId": 17553,
+   "recetteObjetId": 13477,
+   "crafts": 10,
+   "obtention": "Marchand: Algernon, Undercity / Ulthir, Darnassus",
+   "ingredients": [
+    {
+     "nomEn": "Sungrass",
+     "id": 8838,
+     "parCraft": 2,
+     "total": 20
+    },
+    {
+     "nomEn": "Blindweed",
+     "id": 8839,
+     "parCraft": 2,
+     "total": 20
+    },
+    {
+     "nomEn": "Crystal Vial",
+     "id": null,
+     "parCraft": 1,
+     "total": 10
+    }
+   ],
+   "notes": "Non teste."
+  },
+  {
+   "n": 14,
+   "debut": 275,
+   "fin": 290,
+   "recetteEn": "Superior Mana Potion",
+   "recetteSortId": 17553,
+   "recetteObjetId": 13477,
+   "crafts": 20,
+   "obtention": "Marchand: Algernon, Undercity / Ulthir, Darnassus",
+   "ingredients": [
+    {
+     "nomEn": "Sungrass",
+     "id": 8838,
+     "parCraft": 2,
+     "total": 40
+    },
+    {
+     "nomEn": "Blindweed",
+     "id": 8839,
+     "parCraft": 2,
+     "total": 40
+    },
+    {
+     "nomEn": "Crystal Vial",
+     "id": null,
+     "parCraft": 1,
+     "total": 20
+    }
+   ],
+   "notes": "Le guide dit de choisir l'option la moins chere parmi 3 (non teste). Alternatives: Elixir of Greater Defense (17554; guide cite 'Elixir of Superior Defense' item 13478 chez Kor'geld, Orgrimmar / Soolie Berryfizz, Ironforge) 17 crafts: 34 Stonescale Oil, 17 Sungrass, 17 Crystal Vial, jaune a 280. Elixir of Shadow Power (11476; recette item 9301, Algernon Undercity / Maria Lumere Stormwind) 27 crafts: 81 Ghost Mushroom, 27 Crystal Vial."
+  },
+  {
+   "n": 15,
+   "debut": 290,
+   "fin": 300,
+   "recetteEn": "Major Frenzy Potion",
+   "recetteSortId": 1251740,
+   "recetteObjetId": null,
+   "crafts": 17,
+   "obtention": "Marchand: Apothecary Durelle (Horde), Durotar Supply and Logistics camp, Durotar / Nina Surefire (Alliance), Redridge Mountains",
+   "ingredients": [
+    {
+     "nomEn": "Plaguebloom",
+     "id": null,
+     "parCraft": 3,
+     "total": 51
+    },
+    {
+     "nomEn": "Blindweed",
+     "id": 8839,
+     "parCraft": 2,
+     "total": 34
+    },
+    {
+     "nomEn": "Imbued Vial",
+     "id": null,
+     "parCraft": 1,
+     "total": 17
+    }
+   ],
+   "notes": "Le guide dit 290-300 'non decide'; Major Frenzy Potion est son option listee. Recette BoP via Merchant's Favor (caisses de ravitaillement). Jaune des 295 donc la plupart des crafts servent aux 5 derniers points. Autres options grises a 295 (Elixir of Nature Power 1250792, Elixir of Wicked Regeneration 1250785, Major Spellblasting Potion 1251734). Alternatives AH listees dans le guide (Elixir of the Mongoose 17571, Greater Arcane Elixir 17573, Major Mana Potion 17580 item 13501 chez Magnus Frostwake, W. Plaguelands, etc.). Ids Plaguebloom/Imbued Vial non fournis."
+  }
+ ]
+}

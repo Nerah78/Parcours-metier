@@ -1,0 +1,10 @@
+## Interface: 16001
+## Title: Parcours
+## Notes: Journal de progression par métier (1 à 300), suivi à gauche, icône de minimap, et relevé des marchands (favoris sur la carte et la minimap).
+## Author: Sébastien
+## Version: 0.8
+## SavedVariables: ParcoursDB, CuisineParcoursDB, CuisineMarchandsDB
+
+Donnees.lua
+Parcours.lua
+Marchands.lua

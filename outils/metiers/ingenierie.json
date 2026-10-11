@@ -1,0 +1,661 @@
+{
+ "id": "ingenierie",
+ "nom": "Ingenierie",
+ "nomEn": "Engineering",
+ "limites": [
+  "Donnees Forever (beta), pas Classic Era. Guide: parcours >225 non teste en Forever (route Classic supposee valable).",
+  "Etape 175-194: route principale (60 poudres) gardee; le guide prefere l'alternative beta decrite en notes (non encodee en etapes).",
+  "Etapes 135-150: deux etapes paralleles sur la meme plage.",
+  "Coordonnees des maitres: null. Ids d'objet non fournis pour les composants intermediaires (poudres, boulons, tubes, etc.), Light Leather, Tigerseye, Iron Bar, Silk Cloth: null.",
+  "Mode d'obtention des recettes autres que schematics 16042/16047: 'Inconnue'.",
+  "Totaux Mithril: guide indique 158 pour la route; somme des etapes ici 18+20+120=158, coherent.",
+  "Thunder Bluff et Darnassus n'ont pas de maitre Engineering; sous-zones de depart citees selon le guide."
+ ],
+ "source": "https://www.wow-professions.com/forever/engineering-leveling-guide",
+ "edition": "Forever",
+ "consulte": "2026-10-11",
+ "maitres": [
+  {
+   "nom": "Thund",
+   "zone": "Orgrimmar",
+   "faction": "Horde",
+   "x": null,
+   "y": null,
+   "source": "https://www.wow-professions.com/forever/engineering-leveling-guide"
+  },
+  {
+   "nom": "Nogg (Journeyman)",
+   "zone": "Orgrimmar",
+   "faction": "Horde",
+   "x": null,
+   "y": null,
+   "source": "https://www.wow-professions.com/forever/engineering-leveling-guide"
+  },
+  {
+   "nom": "Roxxik (Expert)",
+   "zone": "Orgrimmar",
+   "faction": "Horde",
+   "x": null,
+   "y": null,
+   "source": "https://www.wow-professions.com/forever/engineering-leveling-guide"
+  },
+  {
+   "nom": "Graham Van Talen",
+   "zone": "Undercity",
+   "faction": "Horde",
+   "x": null,
+   "y": null,
+   "source": "https://www.wow-professions.com/forever/engineering-leveling-guide"
+  },
+  {
+   "nom": "Franklin Lloyd (Journeyman)",
+   "zone": "Undercity",
+   "faction": "Horde",
+   "x": null,
+   "y": null,
+   "source": "https://www.wow-professions.com/forever/engineering-leveling-guide"
+  },
+  {
+   "nom": "Sprite Jumpsprocket",
+   "zone": "Stormwind City",
+   "faction": "Alliance",
+   "x": null,
+   "y": null,
+   "source": "https://www.wow-professions.com/forever/engineering-leveling-guide"
+  },
+  {
+   "nom": "Lilliam Sparkspindle (Journeyman)",
+   "zone": "Stormwind City",
+   "faction": "Alliance",
+   "x": null,
+   "y": null,
+   "source": "https://www.wow-professions.com/forever/engineering-leveling-guide"
+  },
+  {
+   "nom": "Jemma Quikswitch",
+   "zone": "Ironforge",
+   "faction": "Alliance",
+   "x": null,
+   "y": null,
+   "source": "https://www.wow-professions.com/forever/engineering-leveling-guide"
+  },
+  {
+   "nom": "Trixie Quikswitch (Journeyman)",
+   "zone": "Ironforge",
+   "faction": "Alliance",
+   "x": null,
+   "y": null,
+   "source": "https://www.wow-professions.com/forever/engineering-leveling-guide"
+  },
+  {
+   "nom": "Springspindle Fizzlegear (Expert)",
+   "zone": "Ironforge",
+   "faction": "Alliance",
+   "x": null,
+   "y": null,
+   "source": "https://www.wow-professions.com/forever/engineering-leveling-guide"
+  },
+  {
+   "nom": "Finbus Geargrind (Journeyman)",
+   "zone": "Duskwood",
+   "faction": "Alliance",
+   "x": null,
+   "y": null,
+   "source": "https://www.wow-professions.com/forever/engineering-leveling-guide"
+  },
+  {
+   "nom": "Buzzek Bracketswing (Artisan)",
+   "zone": "Gadgetzan, Tanaris",
+   "faction": "Les deux",
+   "x": null,
+   "y": null,
+   "source": "https://www.wow-professions.com/forever/engineering-leveling-guide"
+  },
+  {
+   "nom": "Mukdrak",
+   "zone": "Razor Hill, Durotar",
+   "faction": "Horde",
+   "x": null,
+   "y": null,
+   "source": "https://www.wow-professions.com/forever/engineering-leveling-guide"
+  },
+  {
+   "nom": "Bronk Guzzlegear",
+   "zone": "Steelgrill's Depot, Dun Morogh",
+   "faction": "Alliance",
+   "x": null,
+   "y": null,
+   "source": "https://www.wow-professions.com/forever/engineering-leveling-guide"
+  },
+  {
+   "nom": "Jenna Lemkenilli",
+   "zone": "Auberdine, Darkshore",
+   "faction": "Alliance",
+   "x": null,
+   "y": null,
+   "source": "https://www.wow-professions.com/forever/engineering-leveling-guide"
+  }
+ ],
+ "etapes": [
+  {
+   "n": 1,
+   "debut": 1,
+   "fin": 30,
+   "recetteEn": "Rough Blasting Powder",
+   "recetteSortId": 3918,
+   "recetteObjetId": null,
+   "crafts": 60,
+   "obtention": "Inconnue",
+   "ingredients": [
+    {
+     "nomEn": "Rough Stone",
+     "id": 2835,
+     "parCraft": 1,
+     "total": 60
+    }
+   ],
+   "notes": "Garder tout. Obtention non precisee par le guide. Marteau (item 5956) requis pour la plupart des recettes."
+  },
+  {
+   "n": 2,
+   "debut": 30,
+   "fin": 50,
+   "recetteEn": "Handful of Copper Bolts",
+   "recetteSortId": 3922,
+   "recetteObjetId": null,
+   "crafts": 30,
+   "obtention": "Inconnue",
+   "ingredients": [
+    {
+     "nomEn": "Copper Bar",
+     "id": 2840,
+     "parCraft": 1,
+     "total": 30
+    }
+   ],
+   "notes": "Garder tout."
+  },
+  {
+   "n": 3,
+   "debut": 50,
+   "fin": 51,
+   "recetteEn": "Arclight Spanner",
+   "recetteSortId": 7430,
+   "recetteObjetId": null,
+   "crafts": 1,
+   "obtention": "Inconnue",
+   "ingredients": [
+    {
+     "nomEn": "Copper Bar",
+     "id": 2840,
+     "parCraft": 6,
+     "total": 6
+    }
+   ],
+   "notes": "Garder; utilise pour des recettes ulterieures."
+  },
+  {
+   "n": 4,
+   "debut": 51,
+   "fin": 75,
+   "recetteEn": "Rough Copper Bomb",
+   "recetteSortId": 3923,
+   "recetteObjetId": null,
+   "crafts": 30,
+   "obtention": "Inconnue",
+   "ingredients": [
+    {
+     "nomEn": "Copper Bar",
+     "id": 2840,
+     "parCraft": 1,
+     "total": 30
+    },
+    {
+     "nomEn": "Handful of Copper Bolts",
+     "id": null,
+     "parCraft": 1,
+     "total": 30
+    },
+    {
+     "nomEn": "Rough Blasting Powder",
+     "id": null,
+     "parCraft": 2,
+     "total": 60
+    },
+    {
+     "nomEn": "Linen Cloth",
+     "id": 2589,
+     "parCraft": 1,
+     "total": 30
+    }
+   ],
+   "notes": "Jaune des 60. Ne pas faire en AFK sans Journeyman appris (peut depasser 75)."
+  },
+  {
+   "n": 5,
+   "debut": 75,
+   "fin": 90,
+   "recetteEn": "Coarse Blasting Powder",
+   "recetteSortId": 3929,
+   "recetteObjetId": null,
+   "crafts": 60,
+   "obtention": "Inconnue",
+   "ingredients": [
+    {
+     "nomEn": "Coarse Stone",
+     "id": 2836,
+     "parCraft": 1,
+     "total": 60
+    }
+   ],
+   "notes": "Garder tout. Journeyman requis (Engineering 50, niveau 10)."
+  },
+  {
+   "n": 6,
+   "debut": 90,
+   "fin": 100,
+   "recetteEn": "Coarse Dynamite",
+   "recetteSortId": 3931,
+   "recetteObjetId": null,
+   "crafts": 20,
+   "obtention": "Inconnue",
+   "ingredients": [
+    {
+     "nomEn": "Coarse Blasting Powder",
+     "id": null,
+     "parCraft": 3,
+     "total": 60
+    },
+    {
+     "nomEn": "Linen Cloth",
+     "id": 2589,
+     "parCraft": 1,
+     "total": 20
+    }
+   ],
+   "notes": ""
+  },
+  {
+   "n": 7,
+   "debut": 100,
+   "fin": 105,
+   "recetteEn": "Silver Contact",
+   "recetteSortId": 3973,
+   "recetteObjetId": null,
+   "crafts": 5,
+   "obtention": "Inconnue",
+   "ingredients": [
+    {
+     "nomEn": "Silver Bar",
+     "id": 2842,
+     "parCraft": 1,
+     "total": 5
+    }
+   ],
+   "notes": "Alt si Silver Bar cher: Flying Tiger Goggles (3934) = 30 Light Leather + 10 Tigerseye."
+  },
+  {
+   "n": 8,
+   "debut": 105,
+   "fin": 125,
+   "recetteEn": "Bronze Tube",
+   "recetteSortId": 3938,
+   "recetteObjetId": null,
+   "crafts": 25,
+   "obtention": "Inconnue",
+   "ingredients": [
+    {
+     "nomEn": "Bronze Bar",
+     "id": 2841,
+     "parCraft": 2,
+     "total": 50
+    },
+    {
+     "nomEn": "Weak Flux",
+     "id": 2880,
+     "parCraft": 1,
+     "total": 25
+    }
+   ],
+   "notes": "Jaune partout. Si <125 il manque, sauter des tubes et commencer les lunettes/viseurs."
+  },
+  {
+   "n": 9,
+   "debut": 125,
+   "fin": 135,
+   "recetteEn": "Standard Scope",
+   "recetteSortId": 3978,
+   "recetteObjetId": null,
+   "crafts": 10,
+   "obtention": "Inconnue",
+   "ingredients": [
+    {
+     "nomEn": "Bronze Tube",
+     "id": null,
+     "parCraft": 1,
+     "total": 10
+    },
+    {
+     "nomEn": "Moss Agate",
+     "id": 1206,
+     "parCraft": 1,
+     "total": 10
+    }
+   ],
+   "notes": "Sans Moss Agate: faire Heavy Blasting Powder (3945). Expert requis (Engineering 125, niveau 20, 50 argent)."
+  },
+  {
+   "n": 10,
+   "debut": 135,
+   "fin": 150,
+   "recetteEn": "Heavy Blasting Powder",
+   "recetteSortId": 3945,
+   "recetteObjetId": null,
+   "crafts": 30,
+   "obtention": "Inconnue",
+   "ingredients": [
+    {
+     "nomEn": "Heavy Stone",
+     "id": 2838,
+     "parCraft": 1,
+     "total": 30
+    }
+   ],
+   "notes": "Etape en parallele avec Whirring Bronze Gizmo (meme plage 135-150), dans le meme ordre."
+  },
+  {
+   "n": 11,
+   "debut": 135,
+   "fin": 150,
+   "recetteEn": "Whirring Bronze Gizmo",
+   "recetteSortId": 3942,
+   "recetteObjetId": null,
+   "crafts": 15,
+   "obtention": "Inconnue",
+   "ingredients": [
+    {
+     "nomEn": "Bronze Bar",
+     "id": 2841,
+     "parCraft": 2,
+     "total": 30
+    },
+    {
+     "nomEn": "Wool Cloth",
+     "id": 2592,
+     "parCraft": 1,
+     "total": 15
+    }
+   ],
+   "notes": "En parallele de Heavy Blasting Powder; requis pour Explosive Sheep a 160."
+  },
+  {
+   "n": 12,
+   "debut": 150,
+   "fin": 160,
+   "recetteEn": "Bronze Framework",
+   "recetteSortId": 3953,
+   "recetteObjetId": null,
+   "crafts": 15,
+   "obtention": "Inconnue",
+   "ingredients": [
+    {
+     "nomEn": "Bronze Bar",
+     "id": 2841,
+     "parCraft": 2,
+     "total": 30
+    },
+    {
+     "nomEn": "Medium Leather",
+     "id": 2319,
+     "parCraft": 1,
+     "total": 15
+    },
+    {
+     "nomEn": "Wool Cloth",
+     "id": 2592,
+     "parCraft": 1,
+     "total": 15
+    }
+   ],
+   "notes": "Garder tout."
+  },
+  {
+   "n": 13,
+   "debut": 160,
+   "fin": 175,
+   "recetteEn": "Explosive Sheep",
+   "recetteSortId": 3955,
+   "recetteObjetId": null,
+   "crafts": 15,
+   "obtention": "Inconnue",
+   "ingredients": [
+    {
+     "nomEn": "Heavy Blasting Powder",
+     "id": null,
+     "parCraft": 2,
+     "total": 30
+    },
+    {
+     "nomEn": "Whirring Bronze Gizmo",
+     "id": null,
+     "parCraft": 1,
+     "total": 15
+    },
+    {
+     "nomEn": "Bronze Framework",
+     "id": null,
+     "parCraft": 1,
+     "total": 15
+    },
+    {
+     "nomEn": "Wool Cloth",
+     "id": 2592,
+     "parCraft": 2,
+     "total": 30
+    }
+   ],
+   "notes": "Garder 5 pour Goblin Engineering a 200."
+  },
+  {
+   "n": 14,
+   "debut": 175,
+   "fin": 194,
+   "recetteEn": "Solid Blasting Powder",
+   "recetteSortId": 12585,
+   "recetteObjetId": null,
+   "crafts": 60,
+   "obtention": "Inconnue",
+   "ingredients": [
+    {
+     "nomEn": "Solid Stone",
+     "id": 7912,
+     "parCraft": 2,
+     "total": 120
+    }
+   ],
+   "notes": "Version principale du guide (60 crafts). Alt beta PREFEREE: 10 Solid Blasting Powder (20 Solid Stone) + 20 Iron Grenade (3962): 20 Iron Bar, 20 Heavy Blasting Powder, 20 Silk Cloth (le plafond beta n'utilise que 20 des 60 poudres)."
+  },
+  {
+   "n": 15,
+   "debut": 194,
+   "fin": 195,
+   "recetteEn": "Gyromatic Micro-Adjustor",
+   "recetteSortId": 12590,
+   "recetteObjetId": null,
+   "crafts": 1,
+   "obtention": "Inconnue",
+   "ingredients": [
+    {
+     "nomEn": "Steel Bar",
+     "id": 3859,
+     "parCraft": 4,
+     "total": 4
+    }
+   ],
+   "notes": "Garder."
+  },
+  {
+   "n": 16,
+   "debut": 195,
+   "fin": 200,
+   "recetteEn": "Mithril Tube",
+   "recetteSortId": 12589,
+   "recetteObjetId": null,
+   "crafts": 6,
+   "obtention": "Inconnue",
+   "ingredients": [
+    {
+     "nomEn": "Mithril Bar",
+     "id": 3860,
+     "parCraft": 3,
+     "total": 18
+    }
+   ],
+   "notes": "Garder."
+  },
+  {
+   "n": 17,
+   "debut": 200,
+   "fin": 215,
+   "recetteEn": "Unstable Trigger",
+   "recetteSortId": 12591,
+   "recetteObjetId": null,
+   "crafts": 20,
+   "obtention": "Inconnue",
+   "ingredients": [
+    {
+     "nomEn": "Mithril Bar",
+     "id": 3860,
+     "parCraft": 1,
+     "total": 20
+    },
+    {
+     "nomEn": "Mageweave Cloth",
+     "id": 4338,
+     "parCraft": 1,
+     "total": 20
+    },
+    {
+     "nomEn": "Solid Blasting Powder",
+     "id": null,
+     "parCraft": 1,
+     "total": 20
+    }
+   ],
+   "notes": "Garder pour les bombes a 238. Artisan requis (Engineering 200, niveau 35)."
+  },
+  {
+   "n": 18,
+   "debut": 215,
+   "fin": 238,
+   "recetteEn": "Mithril Casing",
+   "recetteSortId": 12599,
+   "recetteObjetId": null,
+   "crafts": 40,
+   "obtention": "Inconnue",
+   "ingredients": [
+    {
+     "nomEn": "Mithril Bar",
+     "id": 3860,
+     "parCraft": 3,
+     "total": 120
+    }
+   ],
+   "notes": "Garder 40 pour les bombes."
+  },
+  {
+   "n": 19,
+   "debut": 238,
+   "fin": 250,
+   "recetteEn": "Hi-Explosive Bomb",
+   "recetteSortId": 12619,
+   "recetteObjetId": null,
+   "crafts": 20,
+   "obtention": "Inconnue",
+   "ingredients": [
+    {
+     "nomEn": "Mithril Casing",
+     "id": null,
+     "parCraft": 2,
+     "total": 40
+    },
+    {
+     "nomEn": "Unstable Trigger",
+     "id": null,
+     "parCraft": 1,
+     "total": 20
+    },
+    {
+     "nomEn": "Solid Blasting Powder",
+     "id": null,
+     "parCraft": 2,
+     "total": 40
+    }
+   ],
+   "notes": "Section >225 non testee en Forever."
+  },
+  {
+   "n": 20,
+   "debut": 250,
+   "fin": 260,
+   "recetteEn": "Dense Blasting Powder",
+   "recetteSortId": 19788,
+   "recetteObjetId": null,
+   "crafts": 30,
+   "obtention": "Inconnue",
+   "ingredients": [
+    {
+     "nomEn": "Dense Stone",
+     "id": 12365,
+     "parCraft": 2,
+     "total": 60
+    }
+   ],
+   "notes": "Jaune des 250; peut demander plus de crafts."
+  },
+  {
+   "n": 21,
+   "debut": 260,
+   "fin": 285,
+   "recetteEn": "Thorium Widget",
+   "recetteSortId": 19791,
+   "recetteObjetId": 16042,
+   "crafts": 35,
+   "obtention": "Marchand: Sovik, Orgrimmar / Gearcutter Cogspinner, Ironforge",
+   "ingredients": [
+    {
+     "nomEn": "Thorium Bar",
+     "id": 12359,
+     "parCraft": 3,
+     "total": 105
+    },
+    {
+     "nomEn": "Runecloth",
+     "id": 14047,
+     "parCraft": 1,
+     "total": 35
+    }
+   ],
+   "notes": "Schematic = objet 16042."
+  },
+  {
+   "n": 22,
+   "debut": 285,
+   "fin": 300,
+   "recetteEn": "Thorium Tube",
+   "recetteSortId": 19795,
+   "recetteObjetId": 16047,
+   "crafts": 20,
+   "obtention": "Marchand: Xizzer Fizzbolt, Everlook, Winterspring",
+   "ingredients": [
+    {
+     "nomEn": "Thorium Bar",
+     "id": 12359,
+     "parCraft": 6,
+     "total": 120
+    }
+   ],
+   "notes": "Schematic = objet 16047, BoP."
+  }
+ ]
+}
