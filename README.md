@@ -11,7 +11,7 @@ Addon pour **WoW Forever** (bêta, Interface 16001) : journal de progression des
 
 ## Installation
 
-Copier le dossier `Parcours` dans `World of Warcraft/_classic_/Interface/AddOns/`, puis `/reload` en jeu.
+Copier le dépôt dans `World of Warcraft/_classic_/Interface/AddOns/Parcours` (le dossier doit s'appeler `Parcours`), puis `/reload` en jeu. Les dossiers `outils/` et `tests/` ne sont pas chargés par le jeu.
 
 ## Commandes
 
@@ -19,12 +19,12 @@ Copier le dossier `Parcours` dans `World of Warcraft/_classic_/Interface/AddOns/
 
 ## Données
 
-`Parcours/Donnees.lua` est généré depuis `outils/` :
+`Donnees.lua` est généré depuis `outils/` :
 
 ```
-python3 outils/generer_donnees.py outils/cuisine_wow_forever.xlsx Parcours/Donnees.lua outils/metiers
+python3 outils/generer_donnees.py outils/cuisine_wow_forever.xlsx Donnees.lua outils/metiers
 ```
 
 ## Licence
 
-GPL v3 (voir `LICENSE`). Données issues de QuestieDB et AtlasLoot Classic : voir `Parcours/CREDITS.txt`.
+GPL v3 (voir `LICENSE`). Données issues de QuestieDB et AtlasLoot Classic : voir `CREDITS.txt`.

@@ -1090,6 +1090,34 @@ local function LignesMetier(niveau, q)
 end
 
 -- Un bloc par métier affiché : titre de l'étape en cours (cliquable) puis ses objectifs
+-- Marqueurs de carte : vendeur de la recette manquante de l'étape en cours de chaque métier affiché.
+-- Le marqueur disparaît dès que la recette est achetée ou apprise (statut différent de "vendeur").
+local function MajMarqueursRecettes()
+    local api = ParcoursMarchandsAPI
+    if not (api and api.DefinirRecettes and DATA and DATA.metiers) then return end
+    local liste = {}
+    if ParcoursDB.marqueursRecette ~= false then
+        for _, id in ipairs(MetiersAffiches()) do
+            if Utiliser(id) then
+                local niveau = NiveauMetier()
+                local dernier = D.quetes[#D.quetes]
+                if not (niveau and niveau >= dernier.fin) then
+                    local q = D.quetes[QueteCourante(niveau)]
+                    if q and StatutRecette(q) == "vendeur" then
+                        local v = q.recette.vendeur
+                        if v.mapID and v.x and v.y then
+                            liste[#liste + 1] = { cle = id .. ":" .. tostring(q.n), nom = v.nom, mapID = v.mapID, x = v.x, y = v.y,
+                                zone = v.zone, metier = D.nom, origine = v.origine,
+                                recette = NomSort(q.recette.sortId or q.recette.id, q.recette.nom) or q.recette.nom }
+                        end
+                    end
+                end
+            end
+        end
+    end
+    api.DefinirRecettes(liste)
+end
+
 local function RafraichirSuivi()
     if not (suivi and DATA and DATA.metiers) then return end
     if ParcoursDB.suiviMasque then suivi:Hide() return end
@@ -1310,6 +1338,8 @@ local function CreerSuivi()
         suiviDirty = false
         local ok, err = pcall(RafraichirSuivi)
         if not ok then Print("Suivi : erreur (" .. tostring(err) .. ")") end
+        local okM, errM = pcall(MajMarqueursRecettes)
+        if not okM then Print("Marqueurs de recettes : erreur (" .. tostring(errM) .. ")") end
     end)
     suiviDirty = true
 end
@@ -1419,6 +1449,12 @@ local function Commande(arg)
         Print(ParcoursDB.suiviMasque and "Suivi masqué (/parcours suivi pour le réafficher)." or "Suivi affiché.")
         return
     end
+    if arg == "marqueurs" then
+        ParcoursDB.marqueursRecette = (ParcoursDB.marqueursRecette == false)
+        suiviDirty = true
+        Print(ParcoursDB.marqueursRecette == false and "Marqueurs de recettes sur les cartes : désactivés." or "Marqueurs de recettes sur les cartes : activés.")
+        return
+    end
     if arg == "recette connue" or arg == "recette inconnue" then
         if not suiviId then Print("Aucun métier suivi.") return end
         Utiliser(suiviId)
@@ -1471,7 +1507,7 @@ local function Commande(arg)
         end
         return
     end
-    Print("Commandes : /parcours (journal), niveau N, niveau auto, metier NOM, recolte, tous, etat, suivi (masquer/afficher), suivi reset, suivi debug, recette connue|inconnue, icone, icone reset, marchands (module des marchands favoris)")
+    Print("Commandes : /parcours (journal), niveau N, niveau auto, metier NOM, recolte, tous, etat, suivi (masquer/afficher), suivi reset, suivi debug, marqueurs (symbole de recette sur les cartes), recette connue|inconnue, icone, icone reset, marchands (module des marchands favoris)")
 end
 
 SLASH_PARCOURS1 = "/parcours"

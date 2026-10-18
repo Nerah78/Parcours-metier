@@ -7,7 +7,7 @@ Usage :
 
 La cuisine vient du classeur ; les autres métiers viennent des fichiers JSON du dossier « metiers »
 (un fichier par métier : alchimie.json, forge.json, ...).
-Par défaut : cuisine_wow_forever.xlsx + metiers/ (dossier courant) -> Parcours/Donnees.lua
+Par défaut : outils/cuisine_wow_forever.xlsx + outils/metiers/ -> Donnees.lua (racine de l'addon)
 Prérequis : pip install openpyxl
 Important : le classeur doit contenir les valeurs calculées des formules (il suffit de l'ouvrir
 puis de l'enregistrer une fois dans Excel ou LibreOffice).
@@ -21,9 +21,10 @@ import sys
 from datetime import date
 from openpyxl import load_workbook
 
-CLASSEUR = sys.argv[1] if len(sys.argv) > 1 else "cuisine_wow_forever.xlsx"
-SORTIE = sys.argv[2] if len(sys.argv) > 2 else "Parcours/Donnees.lua"
-DOSSIER_METIERS = sys.argv[3] if len(sys.argv) > 3 else "metiers"
+ICI = os.path.dirname(os.path.abspath(__file__))
+CLASSEUR = sys.argv[1] if len(sys.argv) > 1 else os.path.join(ICI, "cuisine_wow_forever.xlsx")
+SORTIE = sys.argv[2] if len(sys.argv) > 2 else os.path.join(ICI, "..", "Donnees.lua")
+DOSSIER_METIERS = sys.argv[3] if len(sys.argv) > 3 else os.path.join(ICI, "metiers")
 
 # Noms de zones (anglais -> français) pour l'affichage. Traductions à vérifier en jeu.
 ZONES_FR = {

@@ -342,8 +342,16 @@ local TEX_BOURSE = "Interface\\GossipFrame\\VendorGossipIcon"
 local TEX_LIVRE = "Interface\\GossipFrame\\TrainerGossipIcon"
 local PREFIXE_PROF = "prof:"
 
+-- Recettes à acheter (envoyées par le journal) : symbole de parchemin sur les cartes
+local TEX_RECETTE = "Interface\\Icons\\INV_Scroll_03"
+local recettesMarq = {}   -- cle -> { nom, mapID, x, y, zone, metier, recette, type = "recette" }
+
 local function EstProf(fav) return type(fav) == "table" and fav.type == "prof" end
-local function TexFav(fav) return EstProf(fav) and TEX_LIVRE or TEX_BOURSE end
+local function EstRecette(fav) return type(fav) == "table" and fav.type == "recette" end
+local function TexFav(fav)
+    if EstRecette(fav) then return TEX_RECETTE end
+    return EstProf(fav) and TEX_LIVRE or TEX_BOURSE
+end
 
 local function Favoris()
     CuisineMarchandsDB._favoris = CuisineMarchandsDB._favoris or {}
@@ -351,6 +359,21 @@ local function Favoris()
 end
 
 -- Clé du PNJ ouvert : l'id (ou le nom) pour un marchand ; "prof:" + id pour un professeur
+-- Favoris + marqueurs de recettes à acheter (un marqueur est décalé s'il partage la place d'un favori du même nom)
+local function Marqueurs()
+    local tous = {}
+    local favs = Favoris()
+    for cle, fav in pairs(favs) do tous[cle] = fav end
+    for cle, m in pairs(recettesMarq) do
+        m.decale = false
+        for _, fav in pairs(favs) do
+            if fav.nom == m.nom and fav.mapID == m.mapID then m.decale = true break end
+        end
+        tous[cle] = m
+    end
+    return tous
+end
+
 local function CleMarchandOuvert(prof)
     local guid = UnitGUID("npc")
     if not guid then return nil end
@@ -389,6 +412,15 @@ end
 
 local function InfoBulleFavori(self)
     GameTooltip:SetOwner(self, "ANCHOR_RIGHT")
+    if EstRecette(self.fav) then
+        GameTooltip:SetText(self.fav.nom or "Marchand")
+        GameTooltip:AddLine("Recette à acheter", 1, 0.82, 0)
+        if self.fav.recette then GameTooltip:AddLine(self.fav.recette, 1, 1, 1, true) end
+        if self.fav.metier then GameTooltip:AddLine("Métier : " .. self.fav.metier, 0.8, 0.8, 0.8) end
+        if self.fav.origine == "web" then GameTooltip:AddLine("Position à confirmer en jeu", 0.7, 0.7, 0.7) end
+        GameTooltip:Show()
+        return
+    end
     local prof = EstProf(self.fav)
     GameTooltip:SetText((self.fav and self.fav.nom) or (prof and "Professeur" or "Marchand"))
     GameTooltip:AddLine(prof and "Professeur favori" or "Marchand favori", 1, 0.82, 0)
@@ -488,7 +520,7 @@ local function RafraichirCarte()
     local eu = UIParent and UIParent.GetEffectiveScale and UIParent:GetEffectiveScale()
     if type(ec) == "number" and type(eu) == "number" and ec > 0 then k = eu / ec end
     if not mapID then return end
-    for cle, fav in pairs(Favoris()) do
+    for cle, fav in pairs(Marqueurs()) do
         local e = {}
         etatCarte.favs[cle] = e
         if not (fav.x and fav.y and fav.mapID) then
@@ -505,7 +537,7 @@ local function RafraichirCarte()
                 p:SetFrameLevel(200)
                 p:SetSize(TAILLE_PIN_CARTE * k, TAILLE_PIN_CARTE * k)
                 p:ClearAllPoints()
-                p:SetPoint("CENTER", canvas, "TOPLEFT", fx * w, -fy * h)
+                p:SetPoint("CENTER", canvas, "TOPLEFT", fx * w + (fav.decale and 14 * k or 0), -fy * h)
                 p:Show()
                 e.mode, e.fx, e.fy = mode, fx, fy
                 etatCarte.affiches = etatCarte.affiches + 1
@@ -604,6 +636,11 @@ local function CleFavoriUnite(unit)
     if nom and favs[nom] then return nom end
     if npcId and favs[PREFIXE_PROF .. npcId] then return PREFIXE_PROF .. npcId end
     if nom and favs[PREFIXE_PROF .. nom] then return PREFIXE_PROF .. nom end
+    if nom then
+        for cle, m in pairs(recettesMarq) do
+            if m.nom == nom then return cle end
+        end
+    end
     return nil
 end
 
@@ -633,7 +670,7 @@ local function MajPlaque(unit)
     if not plaque then return end
     local cleFav = CleFavoriUnite(unit)
     if cleFav then
-        EtoilePourPlaque(plaque, Favoris()[cleFav]):Show()
+        EtoilePourPlaque(plaque, Marqueurs()[cleFav]):Show()
     elseif etoilesPlaques[plaque] then
         etoilesPlaques[plaque]:Hide()
     end
@@ -705,7 +742,7 @@ end
 
 local function MajMinimap()
     ticksMini = ticksMini + 1
-    local favs = Favoris()
+    local favs = Marqueurs()
     if next(favs) == nil then MasquerMinimap() return end
     if not Minimap then return end
     local mapID, px, py = PositionJoueur()
@@ -745,7 +782,7 @@ local function MajMinimap()
                 if dist <= diam / 2 * 0.92 then
                     p = p or ObtenirPin(pinsMini, cle, Minimap, 16, false, fav)
                     p:ClearAllPoints()
-                    p:SetPoint("CENTER", Minimap, "CENTER", sx / diam * largeur, sy / diam * largeur)
+                    p:SetPoint("CENTER", Minimap, "CENTER", sx / diam * largeur + (fav.decale and 9 or 0), sy / diam * largeur)
                     p:SetFrameStrata("HIGH")
                     p:SetFrameLevel(Minimap:GetFrameLevel() + 20)
                     p:Show()
@@ -1125,6 +1162,31 @@ local function DiagnosticLivre()
     end
 end
 
+-- Interface pour le journal : liste des marchands où acheter les recettes manquantes
+local derniereSigRecettes
+ParcoursMarchandsAPI = {
+    DefinirRecettes = function(liste)
+        local sig = {}
+        local nouveau = {}
+        for _, m in ipairs(liste or {}) do
+            if m.mapID and m.x and m.y then
+                local cle = "recette:" .. tostring(m.cle or m.nom)
+                nouveau[cle] = { nom = m.nom, mapID = m.mapID, x = m.x, y = m.y, zone = m.zone, metier = m.metier,
+                    recette = m.recette, origine = m.origine, type = "recette" }
+                sig[#sig + 1] = cle .. "|" .. tostring(m.recette) .. "|" .. m.mapID .. "|" .. m.x .. "|" .. m.y
+            end
+        end
+        table.sort(sig)
+        sig = table.concat(sig, ";")
+        if sig == derniereSigRecettes then return end   -- rien n'a changé
+        derniereSigRecettes = sig
+        recettesMarq = nouveau
+        RafraichirCarteSur()
+        pcall(MajMinimap)
+        pcall(MajToutesPlaques)
+    end,
+}
+
 local f = CreateFrame("Frame")
 f:RegisterEvent("MERCHANT_SHOW")
 f:RegisterEvent("MERCHANT_UPDATE")
@@ -1133,7 +1195,7 @@ f:RegisterEvent("ADDON_LOADED")
 f:RegisterEvent("PLAYER_LOGIN")
 f:SetScript("OnEvent", function(_, event, arg1)
     if event == "PLAYER_LOGIN" then
-        Print("v0.6 chargé. Commandes : /cmarch (liste), favoris, reset, debug, etoile, minimap, carte, plaques (diagnostics).")
+        Print("v0.9 chargé. Commandes : /cmarch (liste), favoris, reset, debug, etoile, minimap, carte, plaques (diagnostics).")
         local okE, errE = pcall(CreerEtoile)
         if not okE then Print("Étoile : erreur à la création (" .. tostring(errE) .. ")") end
         pcall(InstallerHooksCarte)
@@ -1184,6 +1246,16 @@ SlashCmdList["CUISINEMARCHANDS"] = function(arg)
         pcall(MajMinimap)
         pcall(MajToutesPlaques)
         Print("Favoris effacés.")
+        return
+    end
+    if arg == "recettes" then
+        local n = 0
+        for _, m in pairs(recettesMarq) do
+            n = n + 1
+            Print(string.format("* %s - %s (%s, %s) : %s [%s]", m.nom or "?", m.zone or "?", m.x or "?", m.y or "?",
+                m.recette or "?", m.metier or "?"))
+        end
+        if n == 0 then Print("Aucune recette à acheter n'est suivie (voir le suivi à gauche).") end
         return
     end
     if arg == "professeur" or arg == "livre" then
